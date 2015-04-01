@@ -1,0 +1,23 @@
+<div class="outerwrapper footer">
+	<div class="innerwrapper footer">
+		<footer class="cf">
+			<div class="copy">
+				<h2><span>ModuleQ</span> Keep Closing.</h2>
+				<p>© 2015  ModuleQ. All rights reserved.</p>
+			</div>
+			<!-- END copy-->
+			<div class="links"> <a href="about.html">About</a> <a href="https://moduleq.zendesk.com/home">Support</a> </div>
+			<!-- END links--> 
+		</footer>
+		<!-- END footer--> 
+	</div>
+	<!-- END innerwrapper footer--> 
+</div>
+<!-- END outerwrapper footer--> 
+
+<!--IMAGE LOADER-->
+<div style="display:none"> <img src="<?php bloginfo('template_url'); ?>/images/btn_trymoduleq_on.png" width="475" height="83"> <img src="<?php bloginfo('template_url'); ?>/images/btn_trymoduleq_panel2_on.png" width="287" height="128"> </div>
+<!-- END hideelements-->
+
+</body>
+</html>
