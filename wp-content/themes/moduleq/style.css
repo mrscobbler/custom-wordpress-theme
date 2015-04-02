@@ -413,12 +413,12 @@ footer .links a:hover { color:#999;}
     background:#56f538;
     width:295px;
     height:80px;
-    font-size:25px;
+    font-size:36px;
     color:#4a4a4a;
     display:block;
-    font-family:'proxima-nova-light', Arial, Helvetica, sans-serif; 
     text-align:center;
     line-height: 80px;
+    font-weight: 300;
 }
 .rollover-button:hover{
 	background:#fff;
