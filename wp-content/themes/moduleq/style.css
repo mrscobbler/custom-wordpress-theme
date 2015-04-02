@@ -5,24 +5,7 @@ Description: Custom theme for the ModuleQ website
 Version: 1.0
 License: GNU General Public License v2 or later
 */
-@font-face{ 
-	font-family: 'proxima-nova';
-	src: url('fonts/proxima_nova_thin-webfont.eot');
-	src: url('fonts/proxima_nova_thin-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/proxima_nova_thin-webfont.woff') format('woff'),
-	     url('fonts/proxima_nova_thin-webfont.ttf') format('truetype'),
-	     url('fonts/proxima_nova_thin-webfont.svg#webfont') format('svg');
 
-	
-}
-@font-face{
-	font-family: 'proxima-nova-light';
-	src: url('fonts/proxima_nova_light-webfont.eot');
-	src: url('fonts/proxima_nova_light-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/proxima_nova_light-webfont.woff') format('woff'),
-	     url('fonts/proxima_nova_light-webfont.ttf') format('truetype'),
-	     url('fonts/proxima_nova_light-webfont.svg#webfont') format('svg');
-}
 
 /*RESET*/
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, b, u, i, ol, ul, li, form, label { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
@@ -212,7 +195,7 @@ footer .links a:hover { color:#999;}
 
 @media (max-width: 768px) {
 	/*TAG MOBILE*/
-	.tag_mobile {padding:40px 10px 0 10px; padding}
+	.tag_mobile {padding:40px 10px 0 10px;}
 	.tag_mobile h1 {color:#fff; font-size:38px; clear:both; margin-bottom:22px; font-weight:200; letter-spacing:1px}
 	.tag_mobile h1 br {display:none}
 	.tag_mobile h1 span {color:#56F538;}
@@ -226,7 +209,7 @@ footer .links a:hover { color:#999;}
 /*HOME PANEL 1*/
 .outerwrapper.homepanel_1{
 	position:relative;
-	height:750px;
+	height:400px;
 	padding:100px 0px 100px 0px;
 }
 .greencurve{
@@ -236,7 +219,7 @@ footer .links a:hover { color:#999;}
 	background:#56f538;
 	position:absolute;
 	text-align: right;
-	top:215px;
+	top:25%;
 	left:-570px;
 	width:35%;
 	display:none;
@@ -270,15 +253,6 @@ footer .links a:hover { color:#999;}
 	line-height:175%;
 }
 
-/*
-.outerwrapper.homepanel_1 {margin:260px 0 166px 0;}
-.homepanel_1_content {position:relative;z-index:200}
-.homepanel_1_content .left {width:576px; float:left;height:431px;padding-top:80px; padding-right:156px;box-sizing: border-box; }
-.homepanel_1_content .right {width:576px; float:right;height:431px;padding-top:0px; box-sizing: border-box; text-align:center; margin-top:-100px}
-.greencurve { float:right; text-align:right;}
-.greencurve p {display:none; font-weight:500; margin-bottom:60px; line-height:130%;color:#fff; font-size:24px }
-.greenslide {position:absolute; top:0; left:-900px;z-index:-1; display:none}
-*/
 @media (max-width: 1151px) {
 	.homepanel_1_text {width:496px;}
 }
@@ -292,9 +266,7 @@ footer .links a:hover { color:#999;}
 }
 
 @media (max-width: 768px) {
-	.outerwrapper.homepanel_1{
-	padding-top:60px;
-}
+	.outerwrapper.homepanel_1{height:auto;padding:10px 0px 10px 0px;}
 	.homepanel_1_text{float:none;padding:0px 10px 0px 10px;width:100%;text-align:left;}
 	.greencurve{
 		display:block;
@@ -306,35 +278,22 @@ footer .links a:hover { color:#999;}
 		width:100%;
 		padding:10px 10px 0px 10px;
 	}
-	.greencurve li{display:block;color:#4a4a4a;
+	.greencurve li{display:list-item;color:#4a4a4a;
 		text-align:left;
 		margin-left:20px;
 		margin-bottom:10px; 
 		line-height:175%;
-		list-style-type: circle;
 	}
 	.greencurve li > br{
 		display:none;
 	}
-	/*.outerwrapper.homepanel_1 {margin:0 0 0 0;}
-	.homepanel_1_content { text-align:center; padding:0}
-	.homepanel_1_content .left {width:auto; float:none;height:431px; padding:0;background-color:#56F538; height:auto; padding-top:60px}
-	.homepanel_1_content .right {width:auto; float:none;height:431px; padding:0;height:auto; padding:0; margin:auto; padding-top:60px; padding-bottom:60px; padding-right:10px; padding-left:10px; text-align:left}
-	
-	.greenslide {display:none;}
-	.greencurve {float:none; padding:0 10px; }
-	.greencurve p {	display:block; text-align:left;}
-	.greencurve p br {	display:none }
-	
-	.greencurve_mobile {padding-top:20px}
-	.greencurve_mobile li {margin-left:20px; padding-bottom:10px}*/
 
 }
 
 
 /*HOME PANEL 2*/
 .outerwrapper.homepanel_2 {background-color:#f8f8f8}
-.homepanel_2_content { text-align:center; padding:146px 0}
+.homepanel_2_content { text-align:center; padding:50px 0}
 .homepanel_2_content .left {width:524px; float:left; padding:0 50px; box-sizing: border-box; padding-top:0px;-background-color:red }
 .homepanel_2_content .right {width:628px; float:right;padding-top:100px}
 .homepanel_2_content .right h2 {color:#4a4a4a; font-size:40px; font-weight:200; margin-bottom:35px}
@@ -418,7 +377,7 @@ footer .links a:hover { color:#999;}
 .bio_text h2 {font-size:34px; color:#444; font-weight:300; margin-bottom:5px}
 .bio_text h3 {font-size:22px; color:#444; font-weight:normal; font-weight:300;}
 .bio_text ul { list-style-type: circle; padding-top:25px; margin-left:22px}
-.bio_text li {font-size:22px; color:#444; margin-bottom:15px;; font-weight:200}
+.bio_text li {font-size:22px; color:#444; margin-bottom:15px; font-weight:200}
 .bio_text a {color:#4271a6;}
 .bio_text a.contact {font-size:14px; color:#444; display:inline-block; border:2px #56f538 solid; border-radius:20px; padding:10px 30px; position:absolute; bottom:40px; left:55px}
 .bio_text a.contact b {font-size:16px;padding-right:2px}

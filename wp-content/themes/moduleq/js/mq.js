@@ -20,6 +20,7 @@ $(function () {
 	
 	var greencurve = new Waypoint({
 	  element: document.getElementById('greencurve_waypoint'),
+	  offset:100,
 	  handler: function(direction) {
 	  	
 	  	if($(window).width() > 768){
@@ -32,13 +33,11 @@ $(function () {
 	   	
 	  }
 	});
-	//disable after creation
-	//greencurve.disable();
 	
 	var phone = new Waypoint({
 		element: document.getElementById('startphone_waypoint'),
+		offset:50,
 	  	handler: function(direction) {
-	  	console.log("passed startphone waypoint")
 	  	if(nojs){
 	  		$('#phone').fadeIn('slow', function () {
 				$('#phone_screen2').delay(4000).fadeIn('slow', function () {
@@ -49,6 +48,5 @@ $(function () {
 	   	
 	  }
 	});
-	//phone.disable();
 	
 });

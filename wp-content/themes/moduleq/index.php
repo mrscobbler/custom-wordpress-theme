@@ -16,7 +16,7 @@
 			<div class="tag cf">
 				<h1>The Lean, Mean, Deal Closing Machine For Sales Pros.</h1>
 				<div class="try_moduleQ cf">
-					<a href="trymoduleq.php"  class="rollover-button">Try ModuleQ For Free</a>
+					<a href="trymoduleq.php"  class="rollover-button">Try ModuleQ</a>
 					<a href="#" class="learnmore">Learn More</a> 
 				</div><!-- END try_moduleQ--> 
 			</div><!-- END tag--> 
@@ -40,7 +40,7 @@
 			
 			<div class="tag_mobile cf">
 				<h1>The Lean, Mean, Deal Closing Machine<br>For Sales Pros.</h1>
-				<div class="try_moduleQ cf"> <a href="trymoduleq.php"  class="rollover-button">Try ModuleQ For Free</a> <a href="#" class="learnmore">Learn More</a> </div>
+				<div class="try_moduleQ cf"> <a href="trymoduleq.php"  class="rollover-button">Try ModuleQ</a> <a href="#" class="learnmore">Learn More</a> </div>
 				<!-- END try_moduleQ--> 
 			</div>
 			<!-- END tag_mobile--> 
@@ -67,7 +67,7 @@
 							
 			</div><!-- END right-->
 			<ul class="greencurve">
-				<li>Manage Today's Opportuntities In Play</li>
+				<li>Manage Opportunities In Play</li>
 				<li>Stay On Top of Future Deals</li>
 				<li>Organize Emails and Actions<br/> Around Opportunities</li>
 			</ul><!-- END greencurve-->
@@ -75,9 +75,9 @@
 	</div><!-- END innerwrapper homepanel_1--> 
 </div><!-- END outerwrapper homepanel_1-->
 
-<div id="startphone_waypoint" class="clear startphone"></div>
+<div class="clear startphone"></div>
 
-<div class="outerwrapper homepanel_2">
+<div class="outerwrapper homepanel_2" id="startphone_waypoint">
 	<div class="innerwrapper homepanel_2">
 		<div class="homepanel_2_content cf">
 			<div class="left">
@@ -97,8 +97,7 @@
 					opportunities, emails, and next steps at your fingertips. <br>
 					Save time, stay organized, and manage your deals in <br>
 					play today and on deck for tomorrow.</p>
-				<a href="trymoduleq.php" class="rollover-button">Try ModuleQ Now</a> 
-				<p class="centered">It's fast. It's free to try.</p>
+				<a href="trymoduleq.php" class="rollover-button">Try ModuleQ</a> 
 			</div><!-- END right-->
 		</div>
 		<!-- END homepanel_2_content--> 
