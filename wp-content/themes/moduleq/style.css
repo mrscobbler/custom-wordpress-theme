@@ -143,6 +143,7 @@ footer .copy h2 {font-size:16px; font-weight:600}
 footer .copy h2 span {font-size:25px; margin-right:20px}
 footer .copy p {font-size:14px; font-weight:300; padding-top:20px; text-transform:uppercase}
 footer .links { float:right;font-size:14px; font-weight:600; text-transform:uppercase; padding-top:10px}
+footer .links li{float:left; list-style-type: none;}
 footer .links a { color:#4a4a4a; margin-left:40px}
 footer .links a:hover { color:#999;}
 
@@ -163,9 +164,40 @@ footer .links a:hover { color:#999;}
 /*NAVBAR*/
 .navbar {padding-top:40px; float:right}
 .navbar nav {float:right}
-.navbar nav a {color:#ebebeb; font-size:20px; margin-left:100px; font-weight:300;}
+.navbar nav li{float:left;list-style-type: none;position:relative;}
+.navbar nav a {color:#ebebeb; font-size:20px; margin-left:70px; font-weight:300;}
 .navbar nav a:hover {color:#000000;}
 
+.navbar nav .sub-menu{
+	color:#bcbcbc;
+	position:absolute;
+	width:150px;
+	top:40px;
+	left:45px;	
+	opacity:.8;
+	display:none;
+}
+.navbar nav li:hover .sub-menu{
+	display:inline;
+}
+.navbar nav .sub-menu li{
+	float:none;
+	background:#5d5d5c;
+	border-bottom:1px solid #3d3d3d;
+	height:60px;
+	line-height: 60px;
+	padding-left:25px;
+}
+.navbar nav .sub-menu li:last-child{
+	border-bottom:none; 
+}
+.navbar nav .sub-menu a{
+	margin-left:0px;
+	color:#bcbcbc;
+}
+.navbar nav .sub-menu a:hover{
+	color:white;
+}
 @media (max-width: 1151px) {
 }
 
@@ -177,9 +209,9 @@ footer .links a:hover { color:#999;}
 
 /*TAG*/
 .tag {padding-top:355px; display:none}
-.tag h1 {color:#fff; font-size:68px; clear:both; margin-bottom:22px; font-weight:200; letter-spacing:.5px; line-height:110%}
+.tag h1 {width:95%; float:right;color:#fff; font-size:68px; clear:both; margin-bottom:22px; font-weight:200; letter-spacing:-1px; line-height:110%}
 .tag h1 span {color:#56F538;}
-.tag .try_moduleQ {width:555px; float:right;}
+.tag .try_moduleQ {float:right; padding-right:10px;}
 .tag .try_moduleQ img { float:left; margin-right:30px;}
 .tag .try_moduleQ .learnmore { margin-top:25px; display:block;float:left; font-size:28px; color:#fff; font-weight:200}
 .tag .try_moduleQ .learnmore:hover { color:#000;}
@@ -209,7 +241,7 @@ footer .links a:hover { color:#999;}
 /*HOME PANEL 1*/
 .outerwrapper.homepanel_1{
 	position:relative;
-	height:400px;
+	height:550px;
 	padding:100px 0px 100px 0px;
 }
 .greencurve{
@@ -236,7 +268,7 @@ footer .links a:hover { color:#999;}
 }
 .homepanel_1_text{
 	float:right;
-	width:576px;
+	width:620px;
 	box-sizing: border-box; 
 	text-align:center;
 }
@@ -292,7 +324,7 @@ footer .links a:hover { color:#999;}
 
 
 /*HOME PANEL 2*/
-.outerwrapper.homepanel_2 {background-color:#f8f8f8}
+.outerwrapper.homepanel_2 {background-color:#f8f8f8; min-height:750px; padding:100px 0px;}
 .homepanel_2_content { text-align:center; padding:50px 0}
 .homepanel_2_content .left {width:524px; float:left; padding:0 50px; box-sizing: border-box; padding-top:0px;-background-color:red }
 .homepanel_2_content .right {width:628px; float:right;padding-top:100px}
@@ -324,7 +356,7 @@ footer .links a:hover { color:#999;}
 }
 
 /*PHONE ANIMATION*/
-#phone {width:366px; height:746px; position:relative; margin:auto; overflow:hidden; display:none}
+#phone {width:368px; height:746px; position:relative; margin:auto; overflow:hidden; display:none}
 #phone_cover {position:absolute; top:0; left:0}
 #phone_screen1, #phone_screen2, #phone_screen3 {position:absolute; top:73px; left:22px}
 #phone_screen2, #phone_screen3 {display:none}

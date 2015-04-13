@@ -7,11 +7,8 @@
 	<div class="innerwrapper header index">
 		<header class="cf">
 			
-			<a href="index.html"><img id="logo_about" src="<?php bloginfo('template_url'); ?>/images/icon_logo_about.png"></a>
-			
-			<div class="navbar cf">
-				<nav> <a href="about.html">About</a> <a href="https://moduleq.zendesk.com/home">Support</a> </nav>
-			</div><!-- END navbar-->
+			<?php get_template_part('logo');?>
+			<?php get_template_part('navigation');?>
 			
 			<div class="tag cf">
 				<h1>The Lean, Mean, Deal Closing Machine For Sales Pros.</h1>

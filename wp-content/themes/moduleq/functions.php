@@ -8,6 +8,7 @@ function moduleqTheme_scripts() {
     wp_register_script( 'mq', get_template_directory_uri() . '/js/mq.js');
     
     wp_enqueue_style('style', get_stylesheet_uri());
+    wp_enqueue_style('font-awesome','//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
     wp_enqueue_script('validation');
     wp_enqueue_script('waypoints');
     wp_enqueue_script('velocity');
@@ -15,3 +16,9 @@ function moduleqTheme_scripts() {
     wp_enqueue_script('mq');
 }
 add_action('wp_enqueue_scripts', 'moduleqTheme_scripts');
+
+function register_my_menu() {
+  register_nav_menu('header-menu',__( 'Header Menu' ));
+  register_nav_menu('footer-menu',__( 'Footer Menu' ));
+}
+add_action( 'init', 'register_my_menu' );

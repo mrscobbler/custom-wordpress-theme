@@ -1,5 +1,8 @@
 var $ =jQuery.noConflict();
 $(function () {
+	$('navbar li.menu-item-has-children').on('click',function(){
+		$(this).children('.sub-menu').show();
+	});
 	$('.click').click (shownav);
 	function shownav (){
 		$('#dropdown_mobile').toggle();

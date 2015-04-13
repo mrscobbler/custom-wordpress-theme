@@ -6,7 +6,9 @@
 				<p>© 2015  ModuleQ. All rights reserved.</p>
 			</div>
 			<!-- END copy-->
-			<div class="links"> <a href="about.html">About</a> <a href="https://moduleq.zendesk.com/home">Support</a> </div>
+			<div class="links"> 
+				<?php wp_nav_menu( array( 'theme_location' => 'footer-menu','container'=>'') ); ?> 
+			</div>
 			<!-- END links--> 
 		</footer>
 		<!-- END footer--> 
