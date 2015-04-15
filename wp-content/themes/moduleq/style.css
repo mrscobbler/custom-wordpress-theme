@@ -38,9 +38,9 @@ h3 { font-size: 1.17em; }
 h4 { font-size: 1.12em; }
 h5 { font-size: .83em; }
 h6 { font-size: .75em; }
-
+p{line-height:2em;}
 /*BODY*/
-body { background-color:#fff; font-family: "proxima-nova", Arial, Helvetica, sans-serif; color:#000; margin:0; overflow:hidden }
+body { font-weight:300;background-color:#fff; font-family: "proxima-nova", Arial, Helvetica, sans-serif; color:#000; margin:0; overflow:hidden }
 
 /*WRAPPERS*/
 .outerwrapper {width: 100%;}
@@ -416,7 +416,6 @@ footer .links a:hover { color:#999;}
 .page_about p{
 	font-weight:200;
 	font-size:28px;
-	line-height: 45px;
 	text-align: center;
 	width:80%;
 	margin:0px auto 0px auto;
