@@ -229,6 +229,13 @@ footer .links a:hover { color:#999;}
 	width:1040px;
 }
 .page_content h1{font-size:40px;font-weight:200;margin-bottom:20px;}
+.page_content hr{
+	color:#d6d5d5;
+	height:1px;
+	background:#d6d5d5;
+	margin:45px 0px 85px 0px;
+	border:none;
+}
 /*HOME PANEL 1*/
 .outerwrapper.homepanel_1{
 	position:relative;
