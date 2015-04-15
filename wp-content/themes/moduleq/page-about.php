@@ -17,6 +17,7 @@
 		<h2><?php echo $term->name?></h2>
 		<?php
 		$args = array(
+			'orderby'=>'menu_order',
 			'post_type' => 'team-member',
 			'tax_query' => array(
 				array(
@@ -25,6 +26,7 @@
 					'terms'    => $term->slug,
 				),
 			),
+
 		);
 		 $query = new WP_Query( $args );
 		 $count = 1;
