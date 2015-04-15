@@ -463,6 +463,7 @@ footer .links a:hover { color:#999;}
     text-align:center;
     line-height: 80px;
     font-weight: 300;
+    cursor:pointer;
 }
 .rollover-button:hover{
 	background:#fff;
@@ -471,30 +472,27 @@ footer .links a:hover { color:#999;}
 	float:left;
 	margin-right:30px;
 }
+.ninja-forms-cont .rollover-button{
+	font-weight:200;
+}
+.ninja-forms-cont .rollover-button:hover{
+	background:##dfdfdf;
+}
 .homepanel_2 .rollover-button{
 	margin:0 auto 15px auto;
 }
 @media (max-width: 992px) {
 	.homepanel_2 .rollover-button{width:90%;}
 }
-/*TRY MODULE*/
-.trymoduleqpage_content { text-align:center; padding:150px 0}
-.trymoduleqpage_content h2 {color:#4a4a4a; font-size:40px; font-weight:200; margin-bottom:35px}
-.trymoduleqpage_content p {color:#4a4a4a; font-size:24px; font-weight:200; line-height:175%}
 
-/*APPOINTMENT FORM*/
-#form {width:542px; margin:auto; padding-top:49px}
-#form div.row { margin-bottom:15px; padding:0; }
-#form label { font-size:20px; display:block; color:#333333; text-align:left;font-weight:300}
-#form input { color:#767d83; border: 1px solid #cccccc; font-size:14px; padding:15px 5px; display:block; width:100%; border-radius:5px;box-sizing: border-box;  }
-#form .submit input {border:0; background-image:url(images/btn_signup_off.png); width:287px; height:81px; background-color:transparent; margin:auto}
-#form .submit input:hover {background-image:url(images/btn_signup_on.png); cursor:pointer }
-#form .submit label { }
+/*SIGN UP FORM*/
+.ninja-forms-no-display{
+	display:none;
+}
+#ninja_forms_form_5 {width:542px; margin:auto; padding-top:49px}
+#ninja_forms_form_5 label { font-size:20px; display:block; color:#333333; text-align:left;font-weight:300}
+#ninja_forms_form_5 input { color:#767d83; border: 1px solid #cccccc; font-size:14px; padding:15px 5px; display:block; width:100%; border-radius:5px;box-sizing: border-box;  }
 
-/*THANK YOU*/
-.trymoduleqpage_content {display:block}
-.thankyou_content {display:none; padding:150px 0}
-.thankyou_content img {margin:auto}
 
 @media (max-width: 1200px) {
 }
@@ -503,10 +501,6 @@ footer .links a:hover { color:#999;}
 }
 
 @media (max-width: 768px) {
-	.trymoduleqpage_content {padding: 30px 10px; text-align:left}
-	.trymoduleqpage_content p br { display:none}
-	.trymoduleqpage_content h2 {color:#4a4a4a; font-size:40px; font-weight:200; margin-bottom:20px}
-	#form {margin: auto;padding-top: 49px;width:auto;}
-	.thankyou_content {padding: 30px 0;}
-	.thankyou_content img {margin: auto; max-width:100%}
+	#ninja_forms_form_5 {margin: auto;width:auto;}
+	
 }
