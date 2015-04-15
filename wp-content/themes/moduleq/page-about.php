@@ -38,7 +38,7 @@
 						<ul class="accomplishments">
 							<li><?php echo types_render_field("accomplishments",array('separator'=>"</li><li>"));?></li>
 						</ul>
-						<div class="linkedin"><a href="<?php echo types_render_field("linkedin");?>"><i class="fa fa-2x fa-linkedin-square"></i></a></div>
+						<div class="linkedin"><a href="<?php echo types_render_field("linkedin",array('output'=>'raw'));?>"><i class="fa fa-2x fa-linkedin-square"></i></a></div>
 					</div>
 			 	</div>
 		 <?php if ($count % 3 === 0) :?>
@@ -49,9 +49,9 @@
 		 	$count++;
 
 		  endwhile; ?>
-		  <?php if($count % 3 === 0):?>
-		  	<div class="clear  clear_cards"></div>
-		 <?php endif;?>
+		  
+		  <div class="clear  clear_cards"></div>
+		
 		 <?php endforeach;?>
 	</div>
 </div>
