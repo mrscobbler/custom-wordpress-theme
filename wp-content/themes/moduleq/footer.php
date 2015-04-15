@@ -3,7 +3,7 @@
 		<footer class="cf">
 			<div class="copy">
 				<h2><span>ModuleQ</span> Keep Closing.</h2>
-				<p>© 2015  ModuleQ. All rights reserved.</p>
+				<p>© 2015  ModuleQ&#8482;. All rights reserved.</p>
 			</div>
 			<!-- END copy-->
 			<div class="links"> 

@@ -411,6 +411,8 @@ footer .links a:hover { color:#999;}
 	font-size:28px;
 	line-height: 45px;
 	text-align: center;
+	width:80%;
+	margin:0px auto 0px auto;
 }
 .about-card{
 	float:left;
@@ -423,24 +425,26 @@ footer .links a:hover { color:#999;}
 }
 .about-card-info{
 	width:263px;
-	
+	color:#4a4a4a;
 	padding:0px 20px 20px 20px;
 }
 .about-card-info hr{
 	margin:15px 0px 15px 0px;
 }
 .about-card-info .name{
-	font-weight:bold;
-	font-size:16px;
+	font-weight:600;
+	font-size:20px;
 }
 .about-card-info .title{
-	font-size:14px;
+	font-size:18px;
+	font-weight:300;
 }
 .about-card-info .accomplishments li{
 	list-style-type: none;
 	margin:10px 0px 10px 0px;
-	font-weight:300;
+	font-weight:100;
 	line-height:25px;
+	color:#868686;
 }
 .about-card-info .linkedin a{
 	color:#45f424;
