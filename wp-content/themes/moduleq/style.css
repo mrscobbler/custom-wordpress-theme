@@ -222,20 +222,7 @@ footer .links a:hover { color:#999;}
 	.tag_mobile .try_moduleQ .learnmore:hover { color:#000;}
 }
 
-.outerwrapper.page_content{
-	padding:120px 0px 120px 0px;
-}
-.page_content .innerwrapper{
-	width:1040px;
-}
-.page_content h1{font-size:40px;font-weight:200;margin-bottom:20px;}
-.page_content hr{
-	color:#d6d5d5;
-	height:1px;
-	background:#d6d5d5;
-	margin:45px 0px 85px 0px;
-	border:none;
-}
+
 /*HOME PANEL 1*/
 .outerwrapper.homepanel_1{
 	position:relative;
@@ -376,25 +363,28 @@ footer .links a:hover { color:#999;}
 
 }
 
-
-
-/*ABOUT AREA*/
-.aboutarea_content { text-align:center; padding:122px 0 102px 0; margin:auto}
-.aboutarea_content h2 {color:#4a4a4a; font-size:40px; font-weight:200; margin-bottom:35px}
-.aboutarea_content p {color:#4a4a4a; font-size:24px; font-weight:200; line-height:175%; margin-bottom:25px}
-.aboutarea_content a {color:#000; font-weight:500; }
-
-@media (max-width: 1151px) {
+.outerwrapper.page_content{
+	padding:120px 0px 120px 0px;
+}
+.page_content .innerwrapper{
+	width:1040px;
+}
+.page_content h1{font-size:40px;font-weight:200;margin-bottom:20px;}
+.page_content hr{
+	color:#d6d5d5;
+	height:1px;
+	background:#d6d5d5;
+	margin:45px 0px 85px 0px;
+	border:none;
+}
+.page_content p{
+	font-weight:200;
+	font-size:28px;
+	text-align: center;
+	width:80%;
+	margin:0px auto 0px auto;
 }
 
-@media (max-width: 992px) {
-	.aboutarea_content p br { display:none}
-}
-
-@media (max-width: 768px) {
-	.aboutarea_content {padding: 30px 10px;text-align: left;}
-
-}
 
 /* NEW ABOUT PAGE */
 .page_about h2{
@@ -413,13 +403,7 @@ footer .links a:hover { color:#999;}
 .page_about .clear_cards{
 	margin-bottom:70px;
 }
-.page_about p{
-	font-weight:200;
-	font-size:28px;
-	text-align: center;
-	width:80%;
-	margin:0px auto 0px auto;
-}
+
 .about-card{
 	float:left;
 	margin:0px 20px 0px 20px;
@@ -465,45 +449,7 @@ footer .links a:hover { color:#999;}
 	position:absolute;
 	bottom:20px
 }
-/*ABOUT LIST*/
-.aboutlist_content {width:1042px; padding-bottom:150px; margin:auto}
-.aboutlist_content article { margin-bottom:96px; background-color:#f8f8f8; position:relative  }
 
-.bio_left {width:604px; float:left;box-sizing: border-box; padding:55px }
-.bio_right {width:438px; float:right;}
-
-.bio_text h2 {font-size:34px; color:#444; font-weight:300; margin-bottom:5px}
-.bio_text h3 {font-size:22px; color:#444; font-weight:normal; font-weight:300;}
-.bio_text ul { list-style-type: circle; padding-top:25px; margin-left:22px}
-.bio_text li {font-size:22px; color:#444; margin-bottom:15px; font-weight:200}
-.bio_text a {color:#4271a6;}
-.bio_text a.contact {font-size:14px; color:#444; display:inline-block; border:2px #56f538 solid; border-radius:20px; padding:10px 30px; position:absolute; bottom:40px; left:55px}
-.bio_text a.contact b {font-size:16px;padding-right:2px}
-.bio_text a.contact:hover {border:2px #d5d3d3 solid;}
-
-
-@media (max-width: 1151px) {
-	.aboutlist_content {width:auto;}
-	.bio_left {width: 555px;}
-}
-
-@media (max-width: 992px) {
-	.aboutlist_content {width:auto;padding-bottom:25px; }
-	.aboutlist_content article { margin-bottom:50px; }
-	.bio_left {width: 430px;padding: 35px;}
-	.bio_right {width:338px;}
-	.bio_right img {max-width:100%}
-	.bio_text li {font-size:15px; margin-bottom:18px;}
-	.bio_text a.contact { bottom:20px;}
-}
-
-@media (max-width: 768px) {
-	.bio_left {padding: 10px;width: auto;float: none;}
-	.bio_right {padding: 10px; width: auto;float: none;}
-	.bio_right img { }
-	.bio_text a.contact {position: static;}
-
-}
 /* BUTTONS */
 .rollover-button{
 	border: none;
