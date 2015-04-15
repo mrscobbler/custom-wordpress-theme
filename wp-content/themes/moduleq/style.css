@@ -31,27 +31,13 @@ img.alignleft { padding: 4px; margin: 0 7px 2px 0; display: inline; }
 .wp-caption { border: 1px solid #ddd; text-align: center; background-color: #f3f3f3; padding-top: 4px; margin: 10px; -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
 .wp-caption img { margin: 0; padding: 0; border: 0 none; }
 .wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px; padding: 0 4px 5px; margin: 0; }
-
-/*PAGE TEXT*/
-.page_text h1:first-child, .page_text h2:first-child, .page_text h3:first-child, .page_text h4:first-child, .page_text h5:first-child, .page_text h6:first-child { margin-top:0 }
-.page_text h1, .page_text h2, .page_text h3, .page_text h4, .page_text h5, .page_text h6 { color: #666; font-weight: normal; margin-bottom: 5px; margin-top: 10px;   }
-.page_text h1 { font-size: 22px; }
-.page_text h2 { font-size: 20px; }
-.page_text h3 { font-size: 18px; }
-.page_text h4 { font-size: 16px; }
-.page_text h5 { font-size: 14px; }
-.page_text h6 { font-size: 12px; }
-.page_text a { text-decoration:underline;color: #666;  }
-.page_text p { color: #666; font-size: 12px; line-height: 150%; margin-bottom: 15px; }
-.page_text ul { margin-left:25px; margin-bottom:15px }
-.page_text ol { margin-left:30px; margin-bottom:15px }
-.page_text li { color: #666; font-size: 12px; line-height: 150%; }
-.page_text blockquote { color: #666; font-size: 12px; line-height: 150%; margin: 0px 0px 0px 20px; font-style:italic }
-
-/*NAVIGATION*/
-.navigation {display: block;text-align: center;margin-top: 10px;margin-bottom: 60px;font-size:12px}
-.navigation .alignleft {float:left}
-.navigation .alignright {float:right}
+h1,h2,h3,h4,h5,h6{font-weight:300;}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
 
 /*BODY*/
 body { background-color:#fff; font-family: "proxima-nova", Arial, Helvetica, sans-serif; color:#000; margin:0; overflow:hidden }
@@ -165,7 +151,7 @@ footer .links a:hover { color:#999;}
 .navbar {padding-top:40px; float:right}
 .navbar nav {float:right}
 .navbar nav li{float:left;list-style-type: none;position:relative;}
-.navbar nav a {color:#ebebeb; font-size:20px; margin-left:70px; font-weight:300;}
+.navbar nav a {cursor:pointer;color:#ebebeb; font-size:20px; margin-left:70px; font-weight:300;}
 .navbar nav a:hover {color:#000000;}
 
 .navbar nav .sub-menu{
@@ -174,11 +160,10 @@ footer .links a:hover { color:#999;}
 	width:150px;
 	top:40px;
 	left:45px;	
-	opacity:.8;
 	display:none;
 }
-.navbar nav li:hover .sub-menu{
-	display:inline;
+.home .navbar nav .sub-menu{
+	opacity: .8;
 }
 .navbar nav .sub-menu li{
 	float:none;
@@ -237,7 +222,13 @@ footer .links a:hover { color:#999;}
 	.tag_mobile .try_moduleQ .learnmore:hover { color:#000;}
 }
 
-
+.outerwrapper.page_content{
+	padding:120px 0px 120px 0px;
+}
+.page_content .innerwrapper{
+	width:1040px;
+}
+.page_content h1{font-size:40px;font-weight:200;margin-bottom:20px;}
 /*HOME PANEL 1*/
 .outerwrapper.homepanel_1{
 	position:relative;
@@ -398,7 +389,68 @@ footer .links a:hover { color:#999;}
 
 }
 
+/* NEW ABOUT PAGE */
+.page_about h2{
+	text-align:center;
+	margin-bottom:70px;
+	font-weight:200;
+	font-size:2em;
+}
+.page_about hr{
+	color:#d6d5d5;
+	height:1px;
+	background:#d6d5d5;
+	margin:45px 0px 85px 0px;
+	border:none;
+}
+.page_about .clear_cards{
+	margin-bottom:70px;
+}
+.page_about p{
+	font-weight:200;
+	font-size:28px;
+	line-height: 45px;
+	text-align: center;
+}
+.about-card{
+	float:left;
+	margin:0px 20px 0px 20px;
+	background:#f8f8f8;
 
+}
+.about-card img{
+	margin-bottom:30px;
+}
+.about-card-info{
+	width:263px;
+	
+	padding:0px 20px 20px 20px;
+}
+.about-card-info hr{
+	margin:15px 0px 15px 0px;
+}
+.about-card-info .name{
+	font-weight:bold;
+	font-size:16px;
+}
+.about-card-info .title{
+	font-size:14px;
+}
+.about-card-info .accomplishments li{
+	list-style-type: none;
+	margin:10px 0px 10px 0px;
+	font-weight:300;
+	line-height:25px;
+}
+.about-card-info .linkedin a{
+	color:#45f424;
+}
+.about-card-info .linkedin a:hover{
+	color:#dfdfdf;
+}
+.about-card-info .linkedin{
+	margin-top:30px;
+}
 /*ABOUT LIST*/
 .aboutlist_content {width:1042px; padding-bottom:150px; margin:auto}
 .aboutlist_content article { margin-bottom:96px; background-color:#f8f8f8; position:relative  }
@@ -461,7 +513,6 @@ footer .links a:hover { color:#999;}
 }
 .homepanel_2 .rollover-button{
 	margin:0 auto 15px auto;
-	width:60%;
 }
 @media (max-width: 992px) {
 	.homepanel_2 .rollover-button{width:90%;}

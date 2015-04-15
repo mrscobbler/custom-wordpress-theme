@@ -25,7 +25,7 @@
 <body>
 <div class="outerwrapper header index turnoff_whenmobile">
 	<div class="innerwrapper header index">
-		<header class="cf">
+		<header class="cf home">
 			
 			<?php get_template_part('logo');?>
 			<?php get_template_part('navigation');?>
