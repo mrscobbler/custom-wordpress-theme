@@ -451,7 +451,7 @@ footer .links a:hover { color:#999;}
 }
 
 /* BUTTONS */
-.rollover-button{
+.rollover-button,input.rollover-button{
 	border: none;
     border-radius: 100px;
     background:#56f538;
@@ -472,10 +472,10 @@ footer .links a:hover { color:#999;}
 	float:left;
 	margin-right:30px;
 }
-.ninja-forms-cont .rollover-button{
+.ninja-forms-cont input.rollover-button{
 	font-weight:200;
 }
-.ninja-forms-cont .rollover-button:hover{
+.ninja-forms-cont input.rollover-button:hover{
 	background:##dfdfdf;
 }
 .homepanel_2 .rollover-button{
@@ -489,9 +489,9 @@ footer .links a:hover { color:#999;}
 .ninja-forms-no-display{
 	display:none;
 }
-#ninja_forms_form_5 {width:542px; margin:auto; padding-top:49px}
-#ninja_forms_form_5 label { font-size:20px; display:block; color:#333333; text-align:left;font-weight:300}
-#ninja_forms_form_5 input { color:#767d83; border: 1px solid #cccccc; font-size:14px; padding:15px 5px; display:block; width:100%; border-radius:5px;box-sizing: border-box;  }
+.ninja_forms_form {width:542px; margin:auto; padding-top:49px}
+.ninja_forms_form label { font-size:20px; display:block; color:#333333; text-align:left;font-weight:300}
+.ninja_forms_form input { color:#767d83; border: 1px solid #cccccc; font-size:14px; padding:15px 5px; display:block; width:100%; border-radius:5px;box-sizing: border-box;  }
 
 
 @media (max-width: 1200px) {
