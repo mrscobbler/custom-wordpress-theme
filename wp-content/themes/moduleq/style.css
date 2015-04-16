@@ -345,11 +345,12 @@ footer .links a:hover { color:#999;}
 	.homepanel_2_content .right {padding: 0 10px;float: none;width: auto; padding-top:53px}
 	.homepanel_2_content .left img {margin: auto; max-width:90%}
 	.homepanel_2_content {text-align: left;}
+	#phone.turnoff_whenmobile{display:none;}
 }
 
 /*PHONE ANIMATION*/
 #phone {width:368px; height:746px; position:relative; margin:auto; overflow:hidden; display:block}
-#phone.turnoff_whenmobile{display:none;}
+
 #phone_cover {position:absolute; top:0; left:0}
 #phone_screen1, #phone_screen2, #phone_screen3 {position:absolute; top:73px; left:22px}
 #phone_screen2, #phone_screen3 {display:none}
