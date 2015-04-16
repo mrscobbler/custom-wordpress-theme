@@ -201,7 +201,7 @@ footer .links a:hover { color:#999;}
 
 /*TAG*/
 .tag {padding-top:355px; display:none}
-.tag h1 {width:95%; float:right;color:#fff; font-size:68px; clear:both; margin-bottom:22px; font-weight:200; letter-spacing:-1px; line-height:110%}
+.tag h1 {width:95%; float:right;color:#fff; font-size:68px; clear:both; margin-bottom:22px; font-weight:200; line-height:110%}
 .tag h1 span {color:#56F538;}
 .tag .try_moduleQ {float:right; padding-right:10px;}
 .tag .try_moduleQ img { float:left; margin-right:30px;}
@@ -234,7 +234,7 @@ footer .links a:hover { color:#999;}
 .outerwrapper.homepanel_1{
 	position:relative;
 	height:550px;
-	padding:118px 0px 118px 0px;
+	padding:108px 0px 118px 0px;
 }
 .greencurve{
 	height:235px;
@@ -317,8 +317,8 @@ footer .links a:hover { color:#999;}
 
 
 /*HOME PANEL 2*/
-.outerwrapper.homepanel_2 {background-color:#f8f8f8; min-height:750px; padding:118px 0px;}
-.homepanel_2_content { text-align:center; padding:50px 0}
+.outerwrapper.homepanel_2 {background-color:#f8f8f8; min-height:750px; padding:100px 0px;}
+.homepanel_2_content { text-align:center; padding:45px 0}
 .homepanel_2_content .left {width:524px; float:left; padding:0 50px; box-sizing: border-box; padding-top:0px;-background-color:red }
 .homepanel_2_content .right {width:628px; float:right;padding-top:100px}
 .homepanel_2_content .right h2 {color:#4a4a4a; font-size:40px; font-weight:200; margin-bottom:35px}
