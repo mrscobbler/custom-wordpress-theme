@@ -61,7 +61,7 @@
 			
 			<div class="tag_mobile cf">
 				<h1>The Lean, Mean, Deal Closing Machine<br>For Sales Pros.</h1>
-				<div class="try_moduleQ cf"> <a href="trymoduleq.php"  class="rollover-button">Try ModuleQ</a> <a href="#" class="learnmore">Learn More</a> </div>
+				<div class="try_moduleQ cf"> <a href="/sign-up"  class="rollover-button">Try ModuleQ</a> <a href="#" class="learnmore">Learn More</a> </div>
 				<!-- END try_moduleQ--> 
 			</div>
 			<!-- END tag_mobile--> 

@@ -47,7 +47,7 @@
 					opportunities, emails, and next steps at your fingertips. <br>
 					Save time, stay organized, and manage your deals in <br>
 					play today and on deck for tomorrow.</p>
-				<a href="trymoduleq.php" class="rollover-button">Try ModuleQ</a> 
+				<a href="/sign-up" class="rollover-button">Try ModuleQ</a> 
 			</div><!-- END right-->
 		</div>
 		<!-- END homepanel_2_content--> 
