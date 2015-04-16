@@ -150,16 +150,16 @@ footer .links a:hover { color:#999;}
 /*NAVBAR*/
 .navbar {padding-top:40px; float:right}
 .navbar nav {float:right}
-.navbar nav li{float:left;list-style-type: none;position:relative;}
-.navbar nav a {cursor:pointer;color:#ebebeb; font-size:20px; margin-left:70px; font-weight:300;}
+.navbar nav ul{background:blue;}
+.navbar nav li{float:left;list-style-type: none;position:relative;width:150px;text-align:right;}
+.navbar nav a {cursor:pointer;color:#ebebeb; font-size:20px; font-weight:300;}
 .navbar nav a:hover {color:#000000;}
 
-.navbar nav .sub-menu{
+.navbar nav ul.sub-menu{
 	color:#bcbcbc;
-	position:absolute;
 	width:150px;
-	top:40px;
-	left:45px;	
+	margin-left:40px;
+	margin-top:30px;	
 	display:none;
 }
 .home .navbar nav .sub-menu{
@@ -172,6 +172,8 @@ footer .links a:hover { color:#999;}
 	height:60px;
 	line-height: 60px;
 	padding-left:25px;
+	text-align: left;
+	width:125px;
 }
 .navbar nav .sub-menu li:last-child{
 	border-bottom:none; 
@@ -440,7 +442,7 @@ footer .links a:hover { color:#999;}
 	font-size:15px;
 }
 .about-card-info a{
-	color:#4271a6
+	color:#4271a6;
 	text-decoration:none;
 }
 .about-card-info .linkedin a{

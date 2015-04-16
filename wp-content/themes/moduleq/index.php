@@ -58,10 +58,10 @@
 			<div class="homepanel_1_text">
 				<h2>CRM Can Slow You Down</h2>
 				<p>
-					If you are an on the go sales pro with a <br/>
-					lot of deals to track, ModuleQ is for you.Using <br/>
-					our mobile app, it is simple to manage your <br/>
-					personal sales opportunities and close them faster. Unlike complicated CRMs and <br/>
+					If you are an on the go sales pro with a <br>
+					lot of deals to track, ModuleQ is for you.Using <br>
+					our mobile app, it is simple to manage your <br>
+					personal sales opportunities and close them faster. Unlike complicated CRMs and <br>
 					sales tools, ModuleQ is designed for frontline sales reps in the field.</p> 
 							
 			</div><!-- END right-->

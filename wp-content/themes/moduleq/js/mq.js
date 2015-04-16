@@ -1,7 +1,6 @@
 var $ =jQuery.noConflict();
 $(function () {
-	$('.navbar li.menu-item-has-children').on('click',function(){
-		console.log("here");
+	$('.navbar li.menu-item-has-children').on('hover',function(){
 		$(this).children('.sub-menu').toggle();
 	});
 	$('.click').click (shownav);
