@@ -113,7 +113,7 @@ header #logo_about {float:left; margin-top:28px}
 	#dropdown_mobile {background-color:#EDEDED; padding:0 0 0 0; display:none; position:absolute; top:108px; width:100%; z-index:5000}
 	#dropdown_mobile a {text-align:right;display:block; color:#444; margin-left:10px; margin-right:10px;padding:10px 0; border-bottom:1px dotted #fff; font-size:20px;font-family: "raleway", Arial, Helvetica, sans-serif; }
 	#dropdown_mobile a:last-child {border-bottom:0 }
-
+	#dropdown_mobile li{float:none;}
 
 	.outerwrapper.header_mobile.page .header_mobile_content {padding-bottom: 0px; height:108px}
 }
@@ -150,7 +150,6 @@ footer .links a:hover { color:#999;}
 /*NAVBAR*/
 .navbar {padding-top:40px; float:right}
 .navbar nav {float:right}
-.navbar nav ul{background:blue;}
 .navbar nav li{float:left;list-style-type: none;position:relative;width:150px;text-align:right;}
 .navbar nav a {cursor:pointer;color:#ebebeb; font-size:20px; font-weight:300;}
 .navbar nav a:hover {color:#000000;}
@@ -192,6 +191,12 @@ footer .links a:hover { color:#999;}
 }
 
 @media (max-width: 768px) {
+	.navbar nav ul.sub-menu{
+		margin-left:0px;
+	}
+	.navbar nav .sub-menu li{
+		background-color:#EDEDED; 
+	}
 }
 
 /*TAG*/
@@ -344,6 +349,7 @@ footer .links a:hover { color:#999;}
 
 /*PHONE ANIMATION*/
 #phone {width:368px; height:746px; position:relative; margin:auto; overflow:hidden; display:block}
+#phone.turnoff_whenmobile{display:none;}
 #phone_cover {position:absolute; top:0; left:0}
 #phone_screen1, #phone_screen2, #phone_screen3 {position:absolute; top:73px; left:22px}
 #phone_screen2, #phone_screen3 {display:none}
@@ -480,11 +486,12 @@ footer .links a:hover { color:#999;}
 	float:left;
 	margin-right:30px;
 }
-.ninja-forms-cont input.rollover-button{
+.ninja-forms-form input.rollover-button{
 	font-weight:200;
+	margin:auto;
 }
-.ninja-forms-cont input.rollover-button:hover{
-	background:##dfdfdf;
+.ninja-forms-form input.rollover-button:hover{
+	background:#dfdfdf;
 }
 .homepanel_2 .rollover-button{
 	margin:0 auto 15px auto;
@@ -494,12 +501,15 @@ footer .links a:hover { color:#999;}
 }
 
 /*SIGN UP FORM*/
-.ninja-forms-no-display{
+.ninja-forms-no-display,.ninja-forms-req-symbol,.ninja-forms-required-items{
 	display:none;
 }
+
 .ninja-forms-form {width:542px; margin:auto; padding-top:49px}
 .ninja-forms-form label { font-size:20px; display:block; color:#333333; text-align:left;font-weight:300}
 .ninja-forms-form input { color:#767d83; border: 1px solid #cccccc; font-size:14px; padding:15px 5px; display:block; width:100%; border-radius:5px;box-sizing: border-box;  }
+.ninja-forms-form .field-wrap{margin-bottom:15px;}
+.ninja-forms-form .field-wrap.submit-wrap{margin-top:35px;}
 
 
 @media (max-width: 1200px) {

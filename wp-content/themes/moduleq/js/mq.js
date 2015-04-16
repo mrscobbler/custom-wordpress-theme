@@ -44,7 +44,7 @@ $(function () {
 	  	if(nojs){
 			$('#phone_screen2').fadeIn('slow', function () {
 				$('#phone_screen3').delay(1000).show().css('left','100%').velocity({'left':'22px'}, 500);
-			})
+			});
 
 	  	}
 	   	

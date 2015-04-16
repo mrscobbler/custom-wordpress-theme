@@ -6,9 +6,9 @@
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico" />
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+<![endif]
 <script src="//use.typekit.net/lgp2sgt.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
+<script>try{Typekit.load();}catch(e){}</script>-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -33,7 +33,7 @@
 			<div class="tag cf">
 				<h1>The Lean, Mean, Deal Closing Machine For Sales Pros.</h1>
 				<div class="try_moduleQ cf">
-					<a href="trymoduleq.php"  class="rollover-button">Try ModuleQ</a>
+					<a href="/sign-up"  class="rollover-button">Try ModuleQ</a>
 					<a href="#" class="learnmore">Learn More</a> 
 				</div><!-- END try_moduleQ--> 
 			</div><!-- END tag--> 
@@ -53,9 +53,7 @@
 				</div>
 				<!-- END mobilebtn-->
 				<div id="dropdown_mobile"> 
-					<a href="about.html">About</a> 
-					<a href="https://moduleq.zendesk.com/home">Support</a> 
-					<a href="trymoduleq.php">Try ModuleQ</a> 
+					<?php get_template_part('navigation');?>
 				</div>
 				<!-- END dropdown_mobile--> 
 			</div>
