@@ -397,7 +397,7 @@ footer .links a:hover { color:#999;}
 	color:#d6d5d5;
 	height:1px;
 	background:#d6d5d5;
-	margin:45px 0px 85px 0px;
+	margin:86px 0px 86px 0px;
 	border:none;
 }
 .page_about .clear_cards{
@@ -437,6 +437,11 @@ footer .links a:hover { color:#999;}
 	font-weight:100;
 	line-height:25px;
 	color:#868686;
+	font-size:15px;
+}
+.about-card-info a{
+	color:#4271a6
+	text-decoration:none;
 }
 .about-card-info .linkedin a{
 	color:#45f424;

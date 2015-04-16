@@ -37,7 +37,7 @@
 			
 			<div class="tag_mobile cf">
 				<h1>The Lean, Mean, Deal Closing Machine<br>For Sales Pros.</h1>
-				<div class="try_moduleQ cf"> <a href="trymoduleq.php"  class="rollover-button">Try ModuleQ</a> <a href="#" class="learnmore">Learn More</a> </div>
+				<div class="try_moduleQ cf"> <a href="/sign-up"  class="rollover-button">Try ModuleQ</a> <a href="#" class="learnmore">Learn More</a> </div>
 				<!-- END try_moduleQ--> 
 			</div>
 			<!-- END tag_mobile--> 
@@ -58,9 +58,11 @@
 			<div class="homepanel_1_text">
 				<h2>CRM Can Slow You Down</h2>
 				<p>
-					If you are an on the go sales pro with a lot of <br/>deals to track, ModuleQ is for you.
-					Using our mobile app, it is simple to manage your personal sales opportunities and close them faster.
-					Unlike complicated CRMs and sales tools, ModuleQ is designed for frontline sales reps in the field.</p> 
+					If you are an on the go sales pro with a <br/>
+					lot of deals to track, ModuleQ is for you.Using <br/>
+					our mobile app, it is simple to manage your <br/>
+					personal sales opportunities and close them faster. Unlike complicated CRMs and <br/>
+					sales tools, ModuleQ is designed for frontline sales reps in the field.</p> 
 							
 			</div><!-- END right-->
 			<ul class="greencurve">
@@ -94,7 +96,7 @@
 					opportunities, emails, and next steps at your fingertips. <br>
 					Save time, stay organized, and manage your deals in <br>
 					play today and on deck for tomorrow.</p>
-				<a href="trymoduleq.php" class="rollover-button">Try ModuleQ</a> 
+				<a href="/sign-up" class="rollover-button">Try ModuleQ</a> 
 			</div><!-- END right-->
 		</div>
 		<!-- END homepanel_2_content--> 
