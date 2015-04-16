@@ -6,9 +6,9 @@
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico" />
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]
+<![endif]-->
 <script src="//use.typekit.net/lgp2sgt.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>-->
+<script>try{Typekit.load();}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
