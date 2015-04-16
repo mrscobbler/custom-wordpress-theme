@@ -43,11 +43,10 @@ $(function () {
 		offset:50,
 	  	handler: function(direction) {
 	  	if(nojs){
-	  		$('#phone').fadeIn('slow', function () {
-				$('#phone_screen2').delay(4000).fadeIn('slow', function () {
-					$('#phone_screen3').delay(1000).show().css('left','100%').velocity({'left':'22px'}, 500);
-				})
-			});
+			$('#phone_screen2').fadeIn('slow', function () {
+				$('#phone_screen3').delay(1000).show().css('left','100%').velocity({'left':'22px'}, 500);
+			})
+
 	  	}
 	   	
 	  }
