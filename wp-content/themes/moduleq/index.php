@@ -1,6 +1,4 @@
 <?php get_header('home'); ?>
-<div class="home_content">
-
 <div id="greencurve_waypoint"></div><!-- END scrolltohere_01-->
 
 <div class="outerwrapper homepanel_1">
@@ -57,6 +55,6 @@
 </div>
 <!-- END outerwrapper homepanel_2-->
 
-</div>
+
 
 <?php get_footer(); ?>

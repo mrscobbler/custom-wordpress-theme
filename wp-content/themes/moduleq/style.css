@@ -260,9 +260,10 @@ footer .links a:hover { color:#999;}
 }
 .homepanel_1_text{
 	float:right;
-	width:620px;
+	width:510px;
 	box-sizing: border-box; 
 	text-align:center;
+	margin-right:80px;
 }
 .homepanel_1_content h2 {
 	color:#4a4a4a; 
