@@ -30,7 +30,9 @@
 			<div class="nav_mobile">
 				<div id="mobilebtn" class="click cf"><img src="<?php bloginfo('template_url'); ?>/images/btn_mobilenav.png"></div>
 				<!-- END mobilebtn-->
-				<div id="dropdown_mobile"> <a href="about.html">About</a> <a href="https://moduleq.zendesk.com/home">Support</a> <a href="trymoduleq.php">Try ModuleQ</a> </div>
+				<div id="dropdown_mobile"> 
+					<?php get_template_part('navigation');?>
+				 </div>
 				<!-- END dropdown_mobile--> 
 			</div>
 			<!-- END nav_mobile-->
