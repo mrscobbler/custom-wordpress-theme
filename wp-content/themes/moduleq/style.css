@@ -149,39 +149,39 @@ footer .links a:hover { color:#999;}
 
 /*NAVBAR*/
 .navbar {padding-top:40px; float:right}
-.navbar nav {float:right}
-.navbar nav li{float:left;list-style-type: none;position:relative;width:150px;text-align:right;}
-.navbar nav a {cursor:pointer;color:#ebebeb; font-size:20px; font-weight:300;}
-.navbar nav a:hover {color:#000000;}
+#menu-header-menu{margin-right:-30px;}
+#menu-header-menu li {list-style-type:none;float:left;width:150px;text-align:center;}
+#menu-header-menu  a {cursor:pointer;color:#ebebeb; font-size:20px; font-weight:300;}
+#menu-header-menu  a:hover {color:#000000;}
 
-.navbar nav ul.sub-menu{
-	color:#bcbcbc;
-	width:150px;
-	margin-left:40px;
-	margin-top:30px;	
+#menu-header-menu ul.sub-menu{
+	color:#bcbcbc;	
 	display:none;
+	margin-top:30px;
 }
 .home .navbar nav .sub-menu{
 	opacity: .8;
 }
-.navbar nav .sub-menu li{
-	float:none;
+#menu-header-menu .sub-menu li{
 	background:#5d5d5c;
 	border-bottom:1px solid #3d3d3d;
 	height:60px;
 	line-height: 60px;
-	padding-left:25px;
-	text-align: left;
-	width:125px;
+	display:block;
+	text-align:left;
+	float:none;
+	padding-left:30px;
+	width:120px;
+
 }
-.navbar nav .sub-menu li:last-child{
+#menu-header-menu li:last-child{
 	border-bottom:none; 
 }
-.navbar nav .sub-menu a{
+#menu-header-menu .sub-menu a{
 	margin-left:0px;
 	color:#bcbcbc;
 }
-.navbar nav .sub-menu a:hover{
+#menu-header-menu .sub-menu a:hover{
 	color:white;
 }
 @media (max-width: 1151px) {
@@ -201,9 +201,9 @@ footer .links a:hover { color:#999;}
 
 /*TAG*/
 .tag {padding-top:355px; display:none}
-.tag h1 {width:95%; float:right;color:#fff; font-size:68px; clear:both; margin-bottom:22px; font-weight:200; line-height:110%}
+.tag h1 {float:right;color:#fff; font-size:71px; letter-spacing:-1px;clear:both; margin-bottom:22px; font-weight:200; line-height:110%}
 .tag h1 span {color:#56F538;}
-.tag .try_moduleQ {float:right; padding-right:10px;}
+.tag .try_moduleQ {float:right; padding-right:18px;}
 .tag .try_moduleQ img { float:left; margin-right:30px;}
 .tag .try_moduleQ .learnmore { margin-top:25px; display:block;float:left; font-size:28px; color:#fff; font-weight:200}
 .tag .try_moduleQ .learnmore:hover { color:#000;}
@@ -233,8 +233,7 @@ footer .links a:hover { color:#999;}
 /*HOME PANEL 1*/
 .outerwrapper.homepanel_1{
 	position:relative;
-	height:550px;
-	padding:118px 0px 106px 0px;
+	padding:118px 0px 218px 0px;
 }
 .greencurve{
 	height:235px;
@@ -317,8 +316,8 @@ footer .links a:hover { color:#999;}
 
 
 /*HOME PANEL 2*/
-.outerwrapper.homepanel_2 {background-color:#f8f8f8; min-height:750px; padding:100px 0px;}
-.homepanel_2_content { text-align:center; padding:45px 0}
+.outerwrapper.homepanel_2 {background-color:#f8f8f8;padding:118px 0px;}
+.homepanel_2_content { text-align:center;}
 .homepanel_2_content .left {width:524px; float:left; padding:0 50px; box-sizing: border-box; padding-top:0px;-background-color:red }
 .homepanel_2_content .right {width:628px; float:right;padding-top:100px}
 .homepanel_2_content .right h2 {color:#4a4a4a; font-size:40px; font-weight:200; margin-bottom:35px}
@@ -507,8 +506,8 @@ footer .links a:hover { color:#999;}
 	display:none;
 }
 
-.ninja-forms-form {width:542px; margin:auto; padding-top:49px}
-.ninja-forms-form label { font-size:20px; display:block; color:#333333; text-align:left;font-weight:300}
+.ninja-forms-form {width:542px; margin:auto; padding-top:20px}
+.ninja-forms-form label { font-size:20px; display:block; color:#333333; text-align:left;font-weight:300;margin-bottom:5px;margin-top:30px;}
 .ninja-forms-form input { color:#767d83; border: 1px solid #cccccc; font-size:14px; padding:15px 5px; display:block; width:100%; border-radius:5px;box-sizing: border-box;  }
 .ninja-forms-form .field-wrap{margin-bottom:15px;}
 .ninja-forms-form .field-wrap.submit-wrap{margin-top:35px;}
