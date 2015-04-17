@@ -406,8 +406,9 @@ footer .links a:hover { color:#999;}
 	color:#d6d5d5;
 	height:1px;
 	background:#d6d5d5;
-	margin:86px 0px 86px 0px;
+	margin:86px 20px 86px 20px;
 	border:none;
+	width:95%;
 }
 .page_about .clear_cards{
 	margin-bottom:70px;
