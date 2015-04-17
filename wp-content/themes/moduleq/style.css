@@ -149,7 +149,7 @@ footer .links a:hover { color:#999;}
 
 /*NAVBAR*/
 .header{position:relative;}
-.navbar {position:absolute;right:0;top:40px;}
+.navbar {position:absolute;right:-29px;top:40px;}
 #menu-header-menu li {list-style-type:none;float:left;width:150px;text-align:center;}
 #menu-header-menu  a {cursor:pointer;color:#ebebeb; font-size:20px; font-weight:300;}
 #menu-header-menu  a:hover {color:#000000;}
@@ -203,7 +203,7 @@ footer .links a:hover { color:#999;}
 .tag {padding-top:355px; display:none}
 .tag h1 {float:right;color:#fff; font-size:71px; letter-spacing:-1px;clear:both; margin-bottom:22px; font-weight:200; line-height:110%}
 .tag h1 span {color:#56F538;}
-.tag .try_moduleQ {float:right; padding-right:18px;}
+.tag .try_moduleQ {float:right; padding-right:12px;}
 .tag .try_moduleQ img { float:left; margin-right:30px;}
 .tag .try_moduleQ .learnmore { margin-top:25px; display:block;float:left; font-size:28px; color:#fff; font-weight:200}
 .tag .try_moduleQ .learnmore:hover { color:#000;}
