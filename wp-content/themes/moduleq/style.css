@@ -505,13 +505,13 @@ footer .links a:hover { color:#999;}
 }
 @media (max-width: 1039px) {
 	.about-card{
-		margin:10px 0px;
+		margin:10px;
 	}
 }
 
 @media (max-width: 899px) {
 	.about-card{
-		margin:10px 0px;
+		margin:10px;
 	}
 }
 
