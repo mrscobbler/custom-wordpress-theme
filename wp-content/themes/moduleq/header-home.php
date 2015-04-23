@@ -23,52 +23,17 @@
 <?php wp_head(); ?>
 </head>
 <body>
-<div class="outerwrapper header index turnoff_whenmobile">
+<div class="outerwrapper header index">
 	<div class="innerwrapper header index">
 		<header class="cf home">
 			
 			<?php get_template_part('logo');?>
 			<?php get_template_part('navigation');?>
 			
-			<div class="tag cf">
-				<h1>The Lean, Mean, Deal Closing Machine For Sales Pros.</h1>
-				<div class="try_moduleQ cf">
-					<a href="/sign-up"  class="rollover-button">Try ModuleQ</a>
-					<a href="#" class="learnmore">Learn More</a> 
-				</div><!-- END try_moduleQ--> 
-			</div><!-- END tag--> 
+			
 		
 		</header>
 	</div>
 	<!-- END innerwrapper header--> 
 </div>
 <!-- END outerwrapper header--> 
-
-<div class="outerwrapper header_mobile index turnoff_whendesktop">
-	<div class="innerwrapper header_mobile">
-		<div class="header_mobile_content">
-			<div class="nav_mobile">
-				<div id="mobilebtn" class="click cf">
-					<img src="<?php bloginfo('template_url'); ?>/images/btn_mobilenav.png">
-				</div>
-				<!-- END mobilebtn-->
-				<div id="dropdown_mobile"> 
-					<?php get_template_part('navigation');?>
-				</div>
-				<!-- END dropdown_mobile--> 
-			</div>
-			<!-- END nav_mobile-->
-			
-			<div class="tag_mobile cf">
-				<h1>The Lean, Mean, Deal Closing Machine<br>For Sales Pros.</h1>
-				<div class="try_moduleQ cf"> <a href="/sign-up"  class="rollover-button">Try ModuleQ</a> <a href="#" class="learnmore">Learn More</a> </div>
-				<!-- END try_moduleQ--> 
-			</div>
-			<!-- END tag_mobile--> 
-			
-		</div>
-		<!-- END header_mobile_content--> 
-	</div>
-	<!-- END innerwrapper header_mobile--> 
-</div>
-<!-- END outerwrapper header_mobile--> 

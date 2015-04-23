@@ -25,8 +25,8 @@
 </head>
 <body>
 
-<div class="outerwrapper header page turnoff_whenmobile">
-	<div class="innerwrapper header page">
+<div class="outerwrapper header">
+	<div class="innerwrapper header">
 		<header class="cf">
 			
 			<?php get_template_part('logo');?>
@@ -36,27 +36,4 @@
 		</header>
 	</div><!-- END innerwrapper header-->			
 </div><!-- END outerwrapper header-->
-<div class="outerwrapper header_mobile page turnoff_whendesktop">
-	<div class="innerwrapper header_mobile">
-		<div class="header_mobile_content">
-
-			<div class="nav_mobile">
-				<a href="index.html">
-					<img src="<?php bloginfo('template_url'); ?>/images/icon_logo_about.png" id="logo_mobile_about">
-				</a>
-				<div id="mobilebtn" class="click cf">
-					<img src="<?php bloginfo('template_url'); ?>/images/btn_mobilenav.png">
-				</div><!-- END mobilebtn-->
-				<div id="dropdown_mobile">
-					<a href="about.html">About</a> 
-					<a href="https://moduleq.zendesk.com/home">Support</a>
-					<a href="trymoduleq.php">Try ModuleQ</a> 
-				</div><!-- END dropdown_mobile-->
-			</div><!-- END nav_mobile-->
-			
-			
-		</div><!-- END header_mobile_content-->	
-	</div><!-- END innerwrapper header_mobile-->			
-</div><!-- END outerwrapper header_mobile-->
-
 

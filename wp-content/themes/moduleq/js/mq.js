@@ -1,17 +1,21 @@
 var $ =jQuery.noConflict();
 $(function () {
-	$('.navbar li.menu-item-has-children').on('hover',function(){
-		$(this).children('.sub-menu').toggle();
-	});
-	$('.click').click (shownav);
-	function shownav (){
-		$('#dropdown_mobile').toggle();
-	}
+	
 	var nojs;
 	$(window).bind('resize load',function() {
 		nojs = ($(this).width() < 768) ? false : true;
 	});
-	
+
+	$('.navbar li.menu-item-has-children').on('hover',function(){
+		if(nojs){
+			$(this).children('.sub-menu').toggle();
+		}
+		
+	});
+	$('.click').click (shownav);
+	function shownav (){
+		$('nav .menu').toggle();
+	}
 	
 	var timer_auto;
 	

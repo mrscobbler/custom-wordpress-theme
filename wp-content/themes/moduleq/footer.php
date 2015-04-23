@@ -2,7 +2,7 @@
 	<div class="innerwrapper footer">
 		<footer class="cf">
 			<div class="copy">
-				<h2><span>ModuleQ</span> Keep Closing.</h2>
+				<h2>Powered by ModuleQ</h2>
 				<p>© 2015  ModuleQ&#8482;. All rights reserved.</p>
 			</div>
 			<!-- END copy-->

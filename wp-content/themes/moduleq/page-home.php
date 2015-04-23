@@ -1,4 +1,13 @@
-<?php get_header('home'); ?>
+<?php get_header(); ?>
+<div class="tag_container outerwrapper">
+	<div class="tag cf innerwrapper">
+		<h1>The Lean, Mean, Deal Closing Machine For Sales Pros.</h1>
+		<div class="try_moduleQ cf">
+			<a href="/sign-up"  class="rollover-button">Test Drive Rev</a>
+			<a href="#" class="learnmore">Learn More</a> 
+		</div><!-- END try_moduleQ--> 
+	</div><!-- END tag--> 
+</div>
 <div id="greencurve_waypoint"></div><!-- END scrolltohere_01-->
 
 <div class="outerwrapper homepanel_1">
@@ -47,7 +56,7 @@
 					opportunities, emails, and next steps at your fingertips. <br>
 					Save time, stay organized, and manage your deals in <br>
 					play today and on deck for tomorrow.</p>
-				<a href="/sign-up" class="rollover-button">Try ModuleQ</a> 
+				<a href="/sign-up" class="rollover-button">Test Drive Rev</a> 
 			</div><!-- END right-->
 		</div>
 		<!-- END homepanel_2_content--> 
