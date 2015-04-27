@@ -140,13 +140,13 @@ header{position:relative;height:110px;}
 #logo{position:absolute; top:28px;}
 #mobilebtn{display:none;}
 #menu-header-menu li {list-style-type:none;float:left;width:150px;text-align:center;}
-#menu-header-menu  a {cursor:pointer;color:#fff; font-size:20px; font-weight:300;}
+#menu-header-menu  a {cursor:pointer;color:#fff; font-size:18px; font-weight:300;}
 #menu-header-menu  a:hover {color:#56f538;}
 
 #menu-header-menu ul.sub-menu{
 	color:#bcbcbc;	
 	display:none;
-	margin-top:35px;
+	margin-top:36px;
 	
 }
 .home .navbar nav .sub-menu{
@@ -233,14 +233,14 @@ header{position:relative;height:110px;}
 
 @media (max-width: 768px) {
 	/*TAG MOBILE*/
-	.tag_mobile {padding:40px 10px 0 10px;}
-	.tag_mobile h1 {color:#fff; font-size:38px; clear:both; margin-bottom:22px; font-weight:200; letter-spacing:1px}
-	.tag_mobile h1 br {display:none}
-	.tag_mobile h1 span {color:#56F538;}
-	.tag_mobile .try_moduleQ {width:auto;}
-	.tag_mobile .try_moduleQ img {}
-	.tag_mobile .try_moduleQ .learnmore { margin-top:15px; display:block;font-size:24px; color:#fff; font-weight:200; padding-left:25px}
-	.tag_mobile .try_moduleQ .learnmore:hover { color:#000;}
+	.tag {padding:40px 10px 0 10px;}
+	.tag h1 {color:#fff; font-size:38px; clear:both; margin-bottom:22px; font-weight:200; letter-spacing:1px}
+	.tag h1 br {display:none}
+	.tag h1 span {color:#56F538;}
+	.tag .try_moduleQ {width:auto;}
+	.tag .try_moduleQ img {}
+	.tag .try_moduleQ .learnmore { margin-top:15px; display:block;font-size:24px; color:#fff; font-weight:200; padding-left:25px}
+	.tag .try_moduleQ .learnmore:hover { color:#000;}
 }
 
 
@@ -572,7 +572,9 @@ header{position:relative;height:110px;}
 @media (max-width: 992px) {
 	.homepanel_2 .rollover-button{width:90%;}
 }
-
+@media (max-width: 500px) {
+	.tag_container .rollover-button{width:100%;font-size:28px;}
+}
 /*SIGN UP FORM*/
 .ninja-forms-no-display,.ninja-forms-req-symbol,.ninja-forms-required-items{
 	display:none;
