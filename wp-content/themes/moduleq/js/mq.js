@@ -27,11 +27,11 @@ $(function () {
 	
 	var greencurve = new Waypoint({
 	  element: document.getElementById('greencurve_waypoint'),
-	  offset:100,
+	  offset:'200',
 	  handler: function(direction) {
 	  	
 	  	if($(window).width() > 768){
-	  		$('.greencurve').show(2000).animate({left:0, display:'block'}, 2000, function () {
+	  		$('.greencurve').animate({left:0, display:'block'}, 2500, function () {
 					$('.greencurve li:eq(0)').delay(0).fadeIn(600);
 					$('.greencurve li:eq(1)').delay(1000).fadeIn(600);
 					$('.greencurve li:eq(2)').delay(2000).fadeIn(600);
