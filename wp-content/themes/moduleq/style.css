@@ -140,6 +140,7 @@ header{position:relative;height:110px;}
 #logo{position:absolute; top:28px;}
 #mobilebtn{display:none;}
 #menu-header-menu li {list-style-type:none;float:left;width:150px;text-align:center;}
+#menu-header-menu li.rev_for_sales{width:170px;}
 #menu-header-menu  a {cursor:pointer;color:#fff; font-size:18px; font-weight:300;}
 #menu-header-menu  a:hover {color:#56f538;}
 
@@ -156,7 +157,7 @@ header{position:relative;height:110px;}
 	background:#5d5d5c;
 	border-bottom:1px solid #3d3d3d;
 	text-align:left;
-	padding-left:30px;
+	padding-left:36px;
 	width:120px;
 	height:60px;
 	line-height: 60px;
@@ -455,7 +456,7 @@ header{position:relative;height:110px;}
 	color:#d6d5d5;
 	height:1px;
 	background:#d6d5d5;
-	margin:86px 20px 86px 20px;
+	margin:86px 20px 79px 20px;
 	border:none;
 	width:95%;
 }
