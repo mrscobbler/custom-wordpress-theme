@@ -476,8 +476,12 @@ header{position:relative;height:110px;}
 	width:303px;
 
 }
-.about-card:nth-child(3n+1){
-    clear:left
+.about-card:nth-child(3n+1):after{
+    content: " "; 
+    display: block; 
+    height: 0px; 
+    clear: both; 
+    visibility: hidden;
 }
 .about-card img{
 	margin-bottom:30px;
