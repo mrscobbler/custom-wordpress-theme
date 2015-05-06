@@ -29,7 +29,7 @@
 
 		);
 		 $query = new WP_Query( $args );
-		 $count = 1;
+		 
 		 while ( $query->have_posts() ) : $query->the_post(); ?>
 		 		<div class="about-card">
 					<?php echo types_render_field("team-member-image");?>
@@ -43,16 +43,13 @@
 						<div class="linkedin"><a href="<?php echo types_render_field("linkedin",array('output'=>'raw'));?>"><i class="fa fa-2x fa-linkedin-square"></i></a></div>
 					</div>
 			 	</div>
-		 <?php if ($count % 3 === 0) :?>
-		 		<div class="clear clear_cards"></div>
-		 <?php endif;?>
+		
 		  
 		 <? wp_reset_postdata();
 		 	$count++;
 
 		  endwhile; ?>
 		  
-		  <div class="clear  clear_cards"></div>
 		
 		 <?php endforeach;?>
 	</div>

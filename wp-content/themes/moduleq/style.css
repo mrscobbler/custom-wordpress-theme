@@ -476,6 +476,9 @@ header{position:relative;height:110px;}
 	width:303px;
 
 }
+.about-card:nth-child(3n+1){
+    clear:left
+}
 .about-card img{
 	margin-bottom:30px;
 	width:303px;
