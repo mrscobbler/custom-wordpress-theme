@@ -420,6 +420,9 @@ header{position:relative;height:110px;}
 	width:80%;
 	margin:0px auto 0px auto;
 }
+.page_content p strong{
+	font-weight:300;
+}
 @media (max-width: 1039px) {
 	.page_content .innerwrapper{
 	width:900px;
