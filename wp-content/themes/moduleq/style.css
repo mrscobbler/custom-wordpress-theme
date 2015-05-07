@@ -423,6 +423,7 @@ header{position:relative;height:110px;}
 	width:80%;
 	margin:0px auto 0px auto;
 }
+
 .page_content p strong{
 	font-weight:300;
 }
@@ -448,6 +449,9 @@ header{position:relative;height:110px;}
 	.page_content p{
 		text-align:left;
 		line-height:1.5em;
+	}
+	.page_content p br{
+		display:none;
 	}
 }
 
