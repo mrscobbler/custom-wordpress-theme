@@ -406,6 +406,9 @@ header{position:relative;height:110px;}
 	width:1040px;
 }
 .page_content h1{font-size:40px;font-weight:200;margin-bottom:20px;}
+.page_content h1 strong{
+	font-weight:600;
+}
 .page_content hr{
 	color:#d6d5d5;
 	height:1px;
