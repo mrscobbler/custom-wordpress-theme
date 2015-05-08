@@ -674,7 +674,10 @@ header{position:relative;height:110px;}
 @media (max-width: 1200px) {
 	.solutionpanel_3_white .content{
 	margin-left:65px;
-}
+	}
+	.solutionpanel_3_white .content br{
+		display:none;
+	}
 }
 
 @media (max-width: 990px) {
