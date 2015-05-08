@@ -671,6 +671,11 @@ header{position:relative;height:110px;}
 .solutionpanel_3_gray img{
 	float:left;
 }
+@media (max-width:1390px){
+	.solutionpanel_3_white .content{
+		margin-left:100px;
+	}
+}
 @media (max-width: 1200px) {
 	.solutionpanel_3_white .content{
 	margin-left:65px;
