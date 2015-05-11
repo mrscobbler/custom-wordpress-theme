@@ -22,3 +22,23 @@ function register_my_menu() {
   register_nav_menu('footer-menu',__( 'Footer Menu' ));
 }
 add_action( 'init', 'register_my_menu' );
+
+function remove_support() {
+    remove_post_type_support( 'page', 'editor' );
+}
+//add_action( 'init', 'remove_support' );
+
+function news_widgets_init() {
+
+    register_sidebar( array(
+        'name'          => 'News Sidebar',
+        'id'            => 'news-sidebar',
+        'before_widget' => '<div>',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>',
+    ) );
+
+}
+add_action( 'widgets_init', 'news_widgets_init' );
+?>

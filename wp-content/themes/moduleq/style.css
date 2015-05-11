@@ -44,7 +44,7 @@ body { font-weight:300;background-color:#fff; font-family: "proxima-nova", Arial
 
 /*WRAPPERS*/
 .outerwrapper {width: 100%;}
-.innerwrapper {width: 1152px;margin:auto;}
+.innerwrapper {width: 1140px;margin:auto;}
 
 @media (max-width: 1151px) {
 	.innerwrapper {width: 993px;}
@@ -127,7 +127,7 @@ footer .links a:hover { color:#999;}
 
 /*NAVBAR*/
 header{position:relative;height:110px;}
-.navbar {position:absolute;right:-29px;top:50px;}
+.navbar {position:absolute;right:-5px;top:50px;}
 #logo{position:absolute; top:28px;}
 #mobilebtn{display:none;}
 #menu-header-menu li {list-style-type:none;float:left;padding-left:45px;text-align:right;}
@@ -398,19 +398,23 @@ header{position:relative;height:110px;}
 .outerwrapper.page_content{
 	padding:120px 0px 120px 0px;
 }
-.page_content .innerwrapper{
-	width:1140px;
-}
-.page_content h1{font-size:40px;font-weight:200;margin-bottom:20px;}
-.page_content h1 strong{
-	font-weight:600;
-}
+.page_content h1{color:#4a4a4a;font-size:40px;font-weight:200;margin-left:5px;margin-bottom:20px;}
+
+
 .page_content hr{
 	color:#d6d5d5;
 	height:1px;
 	background:#d6d5d5;
 	margin:45px 0px 85px 0px;
 	border:none;
+}
+.page_content hr.main_hr{
+	height:6px;
+	color:#090909;
+	background:#090909;
+	margin:0px;
+	margin-bottom:30px;
+
 }
 .page_content p{
 	font-weight:200;
@@ -422,6 +426,32 @@ header{position:relative;height:110px;}
 
 .page_content p strong{
 	font-weight:300;
+}
+.page_content .sidebar{
+	float:right;
+	width:30%;
+	border-left:1px solid #d1d1d1;
+	padding-left:35px;
+	color:#4a4a4a;
+}
+
+.sidebar h2{
+	background:#f8f8f8;
+	padding:15px;
+	height:20px;
+	color:#4a4a4a;
+}
+.sidebar div{
+	
+	padding:15px;
+}
+.sidebar p{
+	text-align: left;
+	font-size:20px;
+	padding:0px;
+	width:100%;
+	margin:0px;
+	line-height: 1.5em;
 }
 .support_people{
 	margin-top:70px;
@@ -482,6 +512,11 @@ header{position:relative;height:110px;}
 }
 
 /* NEW ABOUT PAGE */
+.page_about h1{
+	text-align: center;
+	color:#56f538;
+	font-weight:600;
+}
 .page_about h2{
 	text-align:center;
 	margin-bottom:70px;
@@ -683,9 +718,24 @@ header{position:relative;height:110px;}
 	.solutionpanel_3_white .content br{
 		display:none;
 	}
+	.solutionpanel_1 .content{
+		width:40%;
+	}
+	.solutionpanel_1 .content br{
+		display:none;
+	}
 }
 
 @media (max-width: 990px) {
+	.innerwrapper.solutionpanel_1{
+		padding-top:85px;
+	}
+	.solutionpanel_1 img{
+		position:relative;
+	}
+	.solutionpanel_1 .content{
+		width:50%;
+	}
 	.solutionpanel_3_white .content br{
 		display:none;
 	}

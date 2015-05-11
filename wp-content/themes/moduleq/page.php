@@ -1,22 +1,17 @@
 <?php get_header(); ?>
 <div class="outerwrapper page_content">
 	<div class="innerwrapper">
-		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-			<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+		<h1><?php echo types_render_field("page-title");?></h1>
+		<?php echo types_render_field("page-sub-title");?>
+		<hr class="main_hr"/>
+			<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
 				<section class="entry-content cf" itemprop="articleBody">
-					<?php
-						// the content (pretty self explanatory huh)
-						the_content();
-
-					?>
+					<?php echo types_render_field("page-content");?>
 				</section>
 
 
 			</article>
-
-		<?php endwhile; endif; ?>
 	</div>
 </div>
 <?php get_footer(); ?>
