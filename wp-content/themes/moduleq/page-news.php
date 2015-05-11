@@ -11,7 +11,7 @@ get_header(); ?>
 		<div class="content">
 			<?php
 		$args = array(
-			'orderby'=>'menu_order',
+			'orderby'=>'news-item-date',
 			'post_type' => 'news-single',
 
 		);

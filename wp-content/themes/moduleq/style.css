@@ -462,6 +462,9 @@ header{position:relative;height:110px;}
 	line-height: 1.5em;
 
 }
+.sidebar a{
+	color:#56f538;
+}
 .support_people{
 	margin-top:70px;
 }
@@ -875,5 +878,6 @@ header{position:relative;height:110px;}
 	margin-bottom:40px;
 }
 .news-item hr{
+	margin:35px 0px 35px 0px;
 	
 }
