@@ -12,7 +12,7 @@ get_header(); ?>
 			<?php
 		$args = array(
 			'orderby'=>'news-item-date',
-			'order'=>'DESC',
+			'order'=>'ASC',
 			'post_type' => 'news-single',
 
 		);
