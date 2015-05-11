@@ -427,10 +427,15 @@ header{position:relative;height:110px;}
 .page_content p strong{
 	font-weight:300;
 }
+.page_content .content{
+	float:left;
+	width:66%;
+	border-right:1px solid #d1d1d1;
+	min-height: 400px;
+}
 .page_content .sidebar{
 	float:right;
 	width:30%;
-	border-left:1px solid #d1d1d1;
 	padding-left:35px;
 	color:#4a4a4a;
 }
@@ -438,12 +443,15 @@ header{position:relative;height:110px;}
 .sidebar h2{
 	background:#f8f8f8;
 	padding:15px;
-	height:20px;
+	height:25px;
 	color:#4a4a4a;
 }
-.sidebar div{
-	
+.sidebar .widget-container{
+	margin-bottom:50px;
+}
+.sidebar .textwidget{
 	padding:15px;
+	padding-bottom:0px;
 }
 .sidebar p{
 	text-align: left;
@@ -452,6 +460,7 @@ header{position:relative;height:110px;}
 	width:100%;
 	margin:0px;
 	line-height: 1.5em;
+
 }
 .support_people{
 	margin-top:70px;
@@ -510,7 +519,67 @@ header{position:relative;height:110px;}
 	margin:0px auto 0px auto;
 }
 }
+/* BUTTONS */
+.rollover-button,.ninja-forms-form input.rollover-button{
+	border: none;
+    border-radius: 100px;
+    background:#56f538;
+    width:295px;
+    height:80px;
+    font-size:36px;
+    color:#4a4a4a;
+    display:block;
+    text-align:center;
+    line-height: 80px;
+    font-weight: 100;
+    cursor:pointer;
+    padding:0px;
+}
+.rollover-button:hover{
+	background:#fff;
+}
+.tag .rollover-button{
+	float:left;
+	margin-right:30px;
+}
+.ninja-forms-form input.rollover-button{
+	font-weight:200;
+	margin:auto;
+}
+.ninja-forms-form input.rollover-button:hover{
+	background:#dfdfdf;
+}
+.homepanel_2 .rollover-button{
+	margin:0 auto 15px auto;
+}
+@media (max-width: 992px) {
+	.homepanel_2 .rollover-button{width:90%;}
+}
+@media (max-width: 500px) {
+	.tag_container .rollover-button{width:100%;font-size:28px;}
+}
+/*SIGN UP FORM*/
+.ninja-forms-no-display,.ninja-forms-req-symbol,.ninja-forms-required-items{
+	display:none;
+}
 
+.ninja-forms-form {width:542px; margin:auto; padding-top:20px}
+.ninja-forms-form label { font-size:20px; display:block; color:#333333; text-align:left;font-weight:300;margin-bottom:5px;margin-top:30px;}
+.ninja-forms-form input { font-family:inherit;font-weight:300;color:#4a4a4a; border: 1px solid #cccccc; font-size:14px; padding:15px 5px; display:block; width:100%; border-radius:5px;box-sizing: border-box;  }
+.ninja-forms-form .field-wrap{margin-bottom:15px;}
+.ninja-forms-form .field-wrap.submit-wrap{margin-top:35px;}
+
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+	#ninja_forms_form_5 {margin: auto;width:auto;}
+	
+}
 /* NEW ABOUT PAGE */
 .page_about h1{
 	text-align: center;
@@ -792,64 +861,19 @@ header{position:relative;height:110px;}
 		margin-left:15px;
 	}
 }
-/* BUTTONS */
-.rollover-button,.ninja-forms-form input.rollover-button{
-	border: none;
-    border-radius: 100px;
-    background:#56f538;
-    width:295px;
-    height:80px;
-    font-size:36px;
-    color:#4a4a4a;
-    display:block;
-    text-align:center;
-    line-height: 80px;
-    font-weight: 100;
-    cursor:pointer;
-    padding:0px;
+/**** NEWS PAGE *****/
+.news-item{
+	width:95%;
 }
-.rollover-button:hover{
-	background:#fff;
+.news-item .title a{
+	color:#56f538;
+	font-size: 30px;
 }
-.tag .rollover-button{
-	float:left;
-	margin-right:30px;
+.news-item .date{
+	font-size:20px;
+	margin-top:20px;
+	margin-bottom:40px;
 }
-.ninja-forms-form input.rollover-button{
-	font-weight:200;
-	margin:auto;
-}
-.ninja-forms-form input.rollover-button:hover{
-	background:#dfdfdf;
-}
-.homepanel_2 .rollover-button{
-	margin:0 auto 15px auto;
-}
-@media (max-width: 992px) {
-	.homepanel_2 .rollover-button{width:90%;}
-}
-@media (max-width: 500px) {
-	.tag_container .rollover-button{width:100%;font-size:28px;}
-}
-/*SIGN UP FORM*/
-.ninja-forms-no-display,.ninja-forms-req-symbol,.ninja-forms-required-items{
-	display:none;
-}
-
-.ninja-forms-form {width:542px; margin:auto; padding-top:20px}
-.ninja-forms-form label { font-size:20px; display:block; color:#333333; text-align:left;font-weight:300;margin-bottom:5px;margin-top:30px;}
-.ninja-forms-form input { font-family:inherit;font-weight:300;color:#4a4a4a; border: 1px solid #cccccc; font-size:14px; padding:15px 5px; display:block; width:100%; border-radius:5px;box-sizing: border-box;  }
-.ninja-forms-form .field-wrap{margin-bottom:15px;}
-.ninja-forms-form .field-wrap.submit-wrap{margin-top:35px;}
-
-
-@media (max-width: 1200px) {
-}
-
-@media (max-width: 992px) {
-}
-
-@media (max-width: 768px) {
-	#ninja_forms_form_5 {margin: auto;width:auto;}
+.news-item hr{
 	
 }

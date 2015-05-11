@@ -33,7 +33,7 @@ function news_widgets_init() {
     register_sidebar( array(
         'name'          => 'News Sidebar',
         'id'            => 'news-sidebar',
-        'before_widget' => '<div>',
+        'before_widget' => '<div class="widget-container">',
         'after_widget'  => '</div>',
         'before_title'  => '<h2>',
         'after_title'   => '</h2>',

@@ -9,14 +9,9 @@
 		<?php if($page_title != ''):?>
 		<hr class="main_hr"/>
 		<?php endif;?>
-			<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
-
-				<section class="entry-content cf" itemprop="articleBody">
-					<?php echo types_render_field("page-content");?>
-				</section>
-
-
-			</article>
+		<div class="content">
+			<?php echo types_render_field("page-content");?>
+		</div>
 	</div>
 </div>
 <?php get_footer(); ?>
