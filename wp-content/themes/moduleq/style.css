@@ -465,6 +465,10 @@ header{position:relative;height:110px;}
 .sidebar a{
 	color:#56f538;
 }
+.sidebar a.social{
+	color:#7c7c7c;
+	margin-right:25px;
+}
 .support_people{
 	margin-top:70px;
 }
