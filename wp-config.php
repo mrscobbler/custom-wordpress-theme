@@ -1,4 +1,5 @@
 <?php
+define('WP_MEMORY_LIMIT', '100M');
 /**
  * The base configurations of the WordPress.
  *
@@ -51,7 +52,7 @@ define('SECURE_AUTH_SALT', 'put your unique phrase here');
 define('LOGGED_IN_SALT',   'put your unique phrase here');
 define('NONCE_SALT',       'put your unique phrase here');
 
-define('WP_MEMORY_LIMIT', '100M');
+
 /**#@-*/
 
 /**
