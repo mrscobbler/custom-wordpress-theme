@@ -3,7 +3,7 @@
 <div class="outerwrapper solutionpanel_1">
 	<div class="innerwrapper solutionpanel_1">
 		<img src="<?php bloginfo('template_url'); ?>/images/solution_stairs.png">
-		<div class="content">
+		<div class="solution_content">
 		<h1>Keep Deals Humming</h1>
 		<p>Rev is a mobile application for sales professionals who<br/>
 		   need to stay on top of deals 24/7. Unlike clunky CRM <br/>
@@ -19,11 +19,10 @@
 <div class="outerwrapper solutionpanel_2">
 
 	<div class="innerwrapper solutionpanel_2">
-		<div id="phone">
-			<img src="<?php bloginfo('template_url'); ?>/images/img_phone_screen1.png" id="phone_screen1"/>
-			<img src="<?php bloginfo('template_url'); ?>/images/img_phone_background.png" id="phone_cover">
-		</div>
-		<div class="content">
+		<div id="phone"> 
+			<img src="<?php bloginfo('template_url'); ?>/images/app_screen.png" id="phone_cover"> 
+		</div><!-- END phone-->
+		<div class="solution_content">
 			<h2>Accelerate Your Mojo</h2>
 			<ul>
 				<li>Stay in control of your leads by organizing them  in one place</li>
@@ -37,7 +36,7 @@
 	
 </div>
 <div class="solutionpanel_3_white">
-	<div class="content">
+	<div class="solution_content">
 		<h2>Consider Us Your Pit Crew</h2>
 		<p>Our goal is to help you navigate your obstacles as<br/> 
 	quickly and easily as possible — giving you more time to<br/>
@@ -46,7 +45,7 @@
 	</div>
 </div>
 <div class="solutionpanel_3_gray">
-	<div class="content">
+	<div class="solution_content">
 		<h3>We're here to help you win!</h3>
 		<a href="/support" class="rollover-button">Support</a><img src="<?php bloginfo('template_url'); ?>/images/solution_flags.png"/>
 		<div class="clear"></div>

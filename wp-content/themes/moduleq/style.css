@@ -110,6 +110,7 @@ footer .links { float:right;font-size:14px; font-weight:600; text-transform:uppe
 footer .links li{float:left; list-style-type: none;}
 footer .links a { color:#4a4a4a; margin-left:40px}
 footer .links a:hover { color:#999;}
+footer a.poweredby{color:#4a4a4a;text-decoration: underline}
 
 @media (max-width: 1151px) {
 }
@@ -336,7 +337,7 @@ header{position:relative;height:110px;}
 .outerwrapper.homepanel_2 {background-color:#f8f8f8;padding:118px 0px;}
 .homepanel_2_content { text-align:center;}
 .homepanel_2_content .left {width:524px; float:left; padding:0 50px; box-sizing: border-box; padding-top:0px;-background-color:red }
-.homepanel_2_content .right {width:628px; float:right;padding-top:100px}
+.homepanel_2_content .right {width:600px; float:right;padding-top:100px}
 .homepanel_2_content .right h2 {color:#4a4a4a; font-size:40px; font-weight:200; margin-bottom:35px}
 .homepanel_2_content .right p {color:#4a4a4a; font-size:24px; font-weight:200; margin-bottom:75px; line-height:175%}
 .homepanel_2_content .right img { margin:auto}
@@ -366,12 +367,7 @@ header{position:relative;height:110px;}
 	#phone.turnoff_whenmobile{display:none;}
 }
 
-/*PHONE ANIMATION*/
-#phone {width:368px; height:746px; position:relative; margin:auto; overflow:hidden; display:block}
-
-#phone_cover {position:absolute; top:0; left:0}
-#phone_screen1, #phone_screen2, #phone_screen3 {position:absolute; top:73px; left:22px}
-#phone_screen2, #phone_screen3 {display:none}
+#phone {width:368px; height:746px;display:block}
 
 @media (max-width: 1200px) {
 }
@@ -736,7 +732,7 @@ header{position:relative;height:110px;}
 	float:left;
 	margin-right:75px;
 }
-.solutionpanel_2 .content{
+.solutionpanel_2 .solution_content{
 	float:left;
 	padding-top:125px;
 }
@@ -762,7 +758,7 @@ header{position:relative;height:110px;}
 	background:#fff;
 	
 }
-.solutionpanel_3_white .content{
+.solutionpanel_3_white .solution_content{
 	margin-left:185px;
 }
 .solutionpanel_3_white h2{
@@ -775,7 +771,7 @@ header{position:relative;height:110px;}
 	height:305px;
 	width:45%;
 }
-.solutionpanel_3_gray .content{
+.solutionpanel_3_gray .solution_content{
 	margin-left:100px;
 }
 .solutionpanel_3_gray h3{
@@ -795,21 +791,21 @@ header{position:relative;height:110px;}
 	float:left;
 }
 @media (max-width:1390px){
-	.solutionpanel_3_white .content{
+	.solutionpanel_3_white .solution_content{
 		margin-left:100px;
 	}
 }
 @media (max-width: 1200px) {
-	.solutionpanel_3_white .content{
+	.solutionpanel_3_white .solution_content{
 	margin-left:65px;
 	}
-	.solutionpanel_3_white .content br{
+	.solutionpanel_3_white .solution_content br{
 		display:none;
 	}
-	.solutionpanel_1 .content{
+	.solutionpanel_1 .solution_content{
 		width:40%;
 	}
-	.solutionpanel_1 .content br{
+	.solutionpanel_1 .solution_content br{
 		display:none;
 	}
 }
@@ -821,13 +817,13 @@ header{position:relative;height:110px;}
 	.solutionpanel_1 img{
 		position:relative;
 	}
-	.solutionpanel_1 .content{
+	.solutionpanel_1 .solution_content{
 		width:50%;
 	}
-	.solutionpanel_3_white .content br{
+	.solutionpanel_3_white .solution_content br{
 		display:none;
 	}
-	.solutionpanel_3_gray .content{
+	.solutionpanel_3_gray .solution_content{
 		margin-left:50px;
 	}
 }
@@ -836,7 +832,7 @@ header{position:relative;height:110px;}
 	.innerwrapper.solutionpanel_1{
 		padding:0px;
 	}
-	.solutionpanel_1 .content{
+	.solutionpanel_1 .solution_content{
 		padding:20px;
 	}
 	.solutionpanel_1 img{
@@ -851,14 +847,14 @@ header{position:relative;height:110px;}
 
 		float:none;
 	}
-	.solutionpanel_2 .content h2{
+	.solutionpanel_2 .solution_content h2{
 		margin-bottom:25px;
 	}
-	.solutionpanel_2 .content{
+	.solutionpanel_2 .solution_content{
 		float:none;
 		padding-top:20px;
 	}
-	.solutionpanel_2 .content li{
+	.solutionpanel_2 .solution_content li{
 		line-height: 1.6em;
 		margin-bottom:15px;
 	}
@@ -868,13 +864,13 @@ header{position:relative;height:110px;}
 		padding:20px;
 		height:auto;
 	}
-	.solutionpanel_3_white .content h2{
+	.solutionpanel_3_white .solution_content h2{
 		margin-bottom:15px;
 	}
-	.solutionpanel_3_white .content{
+	.solutionpanel_3_white .solution_content{
 		margin-left:0px;
 	}
-	.solutionpanel_3_gray .content{
+	.solutionpanel_3_gray .solution_content{
 		margin:0px auto;
 		padding:30px;
 		margin-left:15px;
