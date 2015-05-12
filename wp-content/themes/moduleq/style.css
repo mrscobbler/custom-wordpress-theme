@@ -467,6 +467,9 @@ header{position:relative;height:110px;}
 	font-weight:300;
 
 }
+.sidebar p strong{
+	font-weight:600;
+}
 .sidebar a{
 	color:#56f538;
 	font-weight:400;
