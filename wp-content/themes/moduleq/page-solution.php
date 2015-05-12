@@ -35,13 +35,27 @@
 	</div>
 	
 </div>
-<div class="solutionpanel_3_white">
-	<div class="solution_content">
+<div class="solutionpanel_3_container">
+	<div class="background white" style='float:left;height:100%;background:#fff;'>
 		<h2>Consider Us Your Pit Crew</h2>
 		<p>Our goal is to help you navigate your obstacles as<br/> 
 	quickly and easily as possible — giving you more time to<br/>
 	be creative and strategic. With Rev, you’ll stay focused<br/> 
 	and keep deals on track no matter where you are.</p>
+	</div>
+	<div class="background gray" style='float:right;width: 675px; height:100%;background-color: #e3e3e3; z-index: 1;'>
+
+	</div>
+		
+	<div class="clear"></div>
+	
+	<div class="solution_content" style="position:absolute;top:0;left:0;width:100%;height:100%" class="innerwrapper">
+		<div class="innerwrapper">
+			
+		</div>
+	</div>
+	<!--<div class="solution_content">
+		
 	</div>
 </div>
 <div class="solutionpanel_3_gray">
@@ -49,7 +63,7 @@
 		<h3>We're here to help you win!</h3>
 		<a href="/support" class="rollover-button">Support</a><img src="<?php bloginfo('template_url'); ?>/images/solution_flags.png"/>
 		<div class="clear"></div>
-	</div>
+	</div>-->
 </div>
 
 <div class="clear"></div>
