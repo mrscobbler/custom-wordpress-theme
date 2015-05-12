@@ -460,10 +460,12 @@ header{position:relative;height:110px;}
 	width:100%;
 	margin:0px;
 	line-height: 1.5em;
+	font-weight:300;
 
 }
 .sidebar a{
 	color:#56f538;
+	font-weight:400;
 }
 .sidebar a.social{
 	color:#7c7c7c;
@@ -874,7 +876,8 @@ header{position:relative;height:110px;}
 }
 .news-item .title a{
 	color:#56f538;
-	font-size: 30px;
+	font-size: 28px;
+	font-weight:500;
 }
 .news-item .date{
 	font-size:20px;
