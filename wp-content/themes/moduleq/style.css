@@ -563,6 +563,9 @@ header{position:relative;height:110px;}
 .ninja-forms-form input.rollover-button:hover{
 	background:#dfdfdf;
 }
+.ninja-forms-form input.rollover-button.no-margin{
+	margin:0px;
+}
 .homepanel_2 .rollover-button{
 	margin:0 auto 15px auto;
 }
@@ -577,12 +580,14 @@ header{position:relative;height:110px;}
 	display:none;
 }
 
-.ninja-forms-form {width:542px; margin:auto; padding-top:20px}
+.ninja-forms-form {width:542px; }
 .ninja-forms-form label { font-size:20px; display:block; color:#333333; text-align:left;font-weight:300;margin-bottom:5px;margin-top:30px;}
 .ninja-forms-form input { font-family:inherit;font-weight:300;color:#4a4a4a; border: 1px solid #cccccc; font-size:14px; padding:15px 5px; display:block; width:100%; border-radius:5px;box-sizing: border-box;  }
+.ninja-forms-form textarea { font-family:inherit;font-weight:300;color:#4a4a4a; border: 1px solid #cccccc; font-size:14px; padding:15px 5px; display:block; width:100%; height:240px;border-radius:5px;box-sizing: border-box;  }
+
 .ninja-forms-form .field-wrap{margin-bottom:15px;}
 .ninja-forms-form .field-wrap.submit-wrap{margin-top:35px;}
-
+#ninja_forms_form_5{margin:auto; padding-top:20px}
 
 @media (max-width: 1200px) {
 }
