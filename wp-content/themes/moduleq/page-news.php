@@ -5,9 +5,8 @@
 get_header(); ?>
 <div class="outerwrapper page_content">
 	<div class="innerwrapper cf">
-		<h1><?php echo types_render_field("page-title");?></h1>
-		<?php echo types_render_field("page-sub-title");?>
-		<hr class="main_hr"/>
+		<?php get_template_part('page-top');?>
+		
 		<div class="content">
 			<?php
 		$args = array(

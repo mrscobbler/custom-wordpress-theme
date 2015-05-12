@@ -399,7 +399,7 @@ header{position:relative;height:110px;}
 	padding:120px 0px 120px 0px;
 }
 .page_content h1{color:#4a4a4a;font-size:40px;font-weight:200;margin-left:5px;margin-bottom:20px;}
-
+.page_content h2.subtitle{margin-top:-10px;margin-bottom:20px;}
 
 .page_content hr{
 	color:#d6d5d5;
@@ -432,6 +432,11 @@ header{position:relative;height:110px;}
 	width:66%;
 	border-right:1px solid #d1d1d1;
 	min-height: 400px;
+}
+.page_content .content.no_sidebar{
+	float:none;
+	width:100%;
+	border:none;
 }
 .page_content .sidebar{
 	float:right;
