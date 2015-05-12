@@ -28,11 +28,11 @@ function remove_support() {
 }
 //add_action( 'init', 'remove_support' );
 
-function news_widgets_init() {
+function sidebar_widgets_init() {
 
     register_sidebar( array(
-        'name'          => 'News Sidebar',
-        'id'            => 'news-sidebar',
+        'name'          => 'Sidebar',
+        'id'            => 'sidebar',
         'before_widget' => '<div class="widget-container">',
         'after_widget'  => '</div>',
         'before_title'  => '<h2>',
@@ -40,5 +40,5 @@ function news_widgets_init() {
     ) );
 
 }
-add_action( 'widgets_init', 'news_widgets_init' );
+add_action( 'widgets_init', 'sidebar_widgets_init' );
 ?>

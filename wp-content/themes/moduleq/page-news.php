@@ -32,9 +32,9 @@ get_header(); ?>
 		  endwhile; ?>
 		</div>
 		<div class="sidebar">
-			<?php if ( is_active_sidebar( 'news-sidebar' ) ) : ?>
+			<?php if ( is_active_sidebar( 'sidebar' ) ) : ?>
 				
-					<?php dynamic_sidebar( 'news-sidebar' ); ?>
+					<?php dynamic_sidebar( 'sidebar' ); ?>
 				
 			<?php endif; ?>
 		</div>
