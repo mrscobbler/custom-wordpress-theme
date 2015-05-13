@@ -11,7 +11,7 @@
 		   management, Rev is a personal work tool with a<br/> 
 		   streamlined interface organized to easily drive action. </p>
 		 </div>
-		
+
 	</div><!-- END innerwrapper homepanel_1--> 
 </div><!-- END outerwrapper homepanel_1-->
 
@@ -31,22 +31,27 @@
 				<li>Try out new ideas in your private work space</li>
 			</ul>
 		</div>
+
 		<div class="clear"></div>
 	</div>
 	
 </div>
 <div class="solutionpanel_3 outerwrapper">
 	<div class="innerwrapper solutionpanel_3">
-		<a href="/support/" class="rollover-button">Support</a>
-		<img src="<?php bloginfo('template_url'); ?>/images/solutionpanel_3.png">
-		<div class="solution_content">
+	<div class="solution_content">
 			<h2>Consider Us Your Pit Crew</h2>
 			<p>Our goal is to help you navigate your obstacles as<br/> 
 		quickly and easily as possible — giving you more time to<br/>
 		be creative and strategic. With Rev, you’ll stay focused<br/> 
 		and keep deals on track no matter where you are.</p>
 		</div>
+		
 	</div>
+	<div class="gray_box">
+			<h3>We're here to help you win!</h3>
+
+			<a href="/support/" class="rollover-button">Support</a><img src="<?php bloginfo('template_url'); ?>/images/solution_flags.png">
+		</div>
 </div>
 	
 </div>

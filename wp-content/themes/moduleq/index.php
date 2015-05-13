@@ -1,61 +1,65 @@
 <?php get_header(); ?>
 
-<div id="greencurve_waypoint"></div><!-- END scrolltohere_01-->
+<div class="outerwrapper blog_content">
+	<div class="innerwrapper cf">
+		<h1>Blog</h1>
+		<hr class="main_hr"/>
+		<div class="content">
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<div class="outerwrapper homepanel_1">
-	<div class="innerwrapper homepanel_1">
-		<div class="homepanel_1_content cf">
-			
-			<div class="homepanel_1_text">
-				<h2>CRM Can Slow You Down</h2>
-				<p>
-					If you are an on the go sales pro with a <br>
-					lot of deals to track, ModuleQ is for you.Using <br>
-					our mobile app, it is simple to manage your <br>
-					personal sales opportunities and close them faster. Unlike complicated CRMs and <br>
-					sales tools, ModuleQ is designed for frontline sales reps in the field.</p> 
+					<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
+
+						<header class="article_header">
+
+							<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+							<div class="date"><?php echo get_the_date( "m.d.Y" );?>
+						</header>
+
+						<section class="entry-content cf">
+							<?php the_content(); ?>
+						</section>
+
+						
+
+					</article>
+					<div class="share" style="margin-top:40px;">
+						<div class="share_title"><strong>Share this:</strong></div>
+						<div style="margin-top:20px;"><a href="https://twitter.com/moduleQ" class="social"><i class="fa fa-lg fa-twitter"></i></a><a href="https://www.linkedin.com/company/2708312?trk=tyah&trkInfo=clickedVertical%3Acompany%2Cidx%3A1-1-1%2CtarId%3A1429033159210%2Ctas%3Amoduleq" class="social"><i class="fa fa-lg fa-linkedin"></i></a><a href="https://www.facebook.com/pages/ModuleQ/111268418984871?fref=ts" class="social"><i class="fa fa-lg fa-facebook"></i></a></div>
+					</div>
+					<hr/>
+
+					<?php endwhile; ?>
+
 							
-			</div><!-- END right-->
-			<ul class="greencurve">
-				<li>Manage Opportunities In Play</li>
-				<li>Stay On Top of Future Deals</li>
-				<li>Organize Emails and Actions<br/> Around Opportunities</li>
-			</ul><!-- END greencurve-->
-		</div><!-- END homepanel_1_content--> 
-	</div><!-- END innerwrapper homepanel_1--> 
-</div><!-- END outerwrapper homepanel_1-->
 
-<div class="clear startphone"></div>
+					<?php else : ?>
 
-<div class="outerwrapper homepanel_2" id="startphone_waypoint">
-	<div class="innerwrapper homepanel_2">
-		<div class="homepanel_2_content cf">
-			<div class="left">
-				<div id="phone" class="turnoff_whenmobile"> 
-					<img src="<?php bloginfo('template_url'); ?>/images/img_phone_screen1.png" id="phone_screen1"> 
-					<img src="<?php bloginfo('template_url'); ?>/images/img_phone_screen2.png" id="phone_screen2"> 
-					<img src="<?php bloginfo('template_url'); ?>/images/img_phone_screen3.png" id="phone_screen3"> 
-					<img src="<?php bloginfo('template_url'); ?>/images/img_phone_background.png" id="phone_cover"> 
-				</div><!-- END phone-->
-				<div id="phone_mobile" class="turnoff_whendesktop"> <img src="<?php bloginfo('template_url'); ?>/images/img_mobile_phone.jpg"> </div><!-- END phone_mobile--> 
-			</div><!-- END left--> 
-			<div class="right">
-				<h2>Streamlined to Keep Deals Moving.</h2>
-				<p>With ModuleQ, you can manage your <br>
-					personal sales pipeline in the app and your personal <br>
-					email at the same time. You'll have all of your <br>
-					opportunities, emails, and next steps at your fingertips. <br>
-					Save time, stay organized, and manage your deals in <br>
-					play today and on deck for tomorrow.</p>
-				<a href="/sign-up" class="rollover-button">Try ModuleQ</a> 
-			</div><!-- END right-->
+							<article id="post-not-found" class="hentry cf">
+									<header class="article-header">
+										<h1><?php _e( 'Oops, Post Not Found!'); ?></h1>
+								</header>
+									<section class="entry-content">
+										<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.'); ?></p>
+								</section>
+							</article>
+
+					<?php endif; ?>
+
+
+			
 		</div>
-		<!-- END homepanel_2_content--> 
-	</div>
-	<!-- END innerwrapper homepanel_2--> 
-</div>
-<!-- END outerwrapper homepanel_2-->
+		<div class="sidebar">
+			<?php if ( is_active_sidebar( 'sidebar' ) ) : ?>
+	
+				<?php dynamic_sidebar( 'sidebar' ); ?>
+	
+			<?php endif; ?>
+		</div>
+		<div class="clear"></div>
 
+	</div>
+
+</div>
 
 
 <?php get_footer(); ?>
