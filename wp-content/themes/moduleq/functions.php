@@ -29,7 +29,7 @@ add_action( 'init', 'register_my_menu' );
 function remove_support() {
     remove_post_type_support( 'page', 'editor' );
 }
-//add_action( 'init', 'remove_support' );
+add_action( 'init', 'remove_support' );
 
 function sidebar_widgets_init() {
 

@@ -485,15 +485,20 @@ a.social{
 	color:#7c7c7c;
 	margin-right:25px;
 }
+.support_people_container{
+	background:#fbfbfb;padding-top:80px;
+}
 .support_people{
+	width:200px;
+	float:left;
 	margin-top:70px;
 }
 .support_people p:first-of-type{
 	margin:25px auto 0px auto;
 }
 .support_people:first-of-type{
-	margin-right:130px;
-	margin-left:25%;
+	margin-right:135px;
+	margin-left:27%;
 }
 @media (max-width: 1151px) {
 	.support_people:first-of-type{
