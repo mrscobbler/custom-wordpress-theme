@@ -12,8 +12,7 @@
 	</div>	
 	<div class="outerwrapper team-members">
 		<div class="innerwrapper">
-			<?php $exclude_taxonomy = get_term_by( 'slug', 'support' ); ?>
-			<?php $taxonomy_terms = get_terms( 'assigned-team',array('exclude'=>) );
+			<?php $taxonomy_terms = get_terms( 'assigned-team' );
 			foreach($taxonomy_terms as $term):?>
 			<hr/>
 			<h2><?php echo $term->name?></h2>

@@ -9,7 +9,9 @@ License: GNU General Public License v2 or later
 
 /*RESET*/
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, b, u, i, ol, ul, li, form, label { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
-
+input[type='submit'] {
+  -webkit-appearance: none;
+}
 /*DEFAULTS*/
 html { overflow-y:scroll; }
 a { text-decoration:none }
@@ -823,7 +825,24 @@ a.social{
 	background:#e3e3e3;
 	width:400px;
 }
+.solutionpanel_3 .gray_box h3{
+		color:#8f8f8f;
+		font-weight:500;
+		font-size:24px;
+		margin-left:20px;
+		margin-bottom:25px;
+}
+.solutionpanel_3 .gray_box .rollover-button{
+	width:190px;
+	font-size:33px;
+	margin-right:20px;
+	float:left;
+}
+.solutionpanel_3 .gray_box img{
 
+	float:left;
+
+}
 .solutionpanel_3 .solution_content{
 	width:80%;
 }
@@ -881,6 +900,7 @@ a.social{
 		position:relative;
 		width:100%;
 	}
+	
 
 	
 }

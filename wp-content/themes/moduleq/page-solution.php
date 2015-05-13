@@ -50,7 +50,8 @@
 	<div class="gray_box">
 			<h3>We're here to help you win!</h3>
 
-			<a href="/support/" class="rollover-button">Support</a><img src="<?php bloginfo('template_url'); ?>/images/solution_flags.png">
+			<a href="/support/" class="rollover-button">Support</a>
+			<img src="<?php bloginfo('template_url'); ?>/images/solution_flags.png">
 		</div>
 </div>
 	
