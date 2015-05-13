@@ -470,6 +470,10 @@ hr.main_hr{
 	font-weight:300;
 
 }
+.sidebar li{
+	list-style-type: none;
+	padding:15px;
+}
 .sidebar p strong{
 	font-weight:600;
 }
