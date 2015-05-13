@@ -601,6 +601,9 @@ header{position:relative;height:110px;}
 	
 }
 /* NEW ABOUT PAGE */
+.page_about .outerwrapper.page_content{
+	padding:120px 0px 0px 0px;
+}
 .page_about h1{
 	text-align: center;
 	color:#56f538;
