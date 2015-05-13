@@ -3,6 +3,7 @@
  * Template Name: Support Page
  **/
 get_header(); ?>
+<div class="page_support">
 <div class="outerwrapper page_content">
 	<div class="innerwrapper cf">
 		<div class="content no_sidebar">
@@ -11,7 +12,9 @@ get_header(); ?>
 	</div>
 
 
-	<div  class="support_people_container" style="">
+	
+</div>
+<div  class="outerwrapper page_content support_people_container">
 		<div class="innerwrapper cf">
 			<h2 style="font-size: 35px; text-align: center; font-weight: 100; margin-bottom: 40px;">Anything We Can Help You With?</h2>
 			<p>Contact Lee or Michelle at 

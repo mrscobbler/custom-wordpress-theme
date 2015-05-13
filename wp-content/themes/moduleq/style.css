@@ -387,6 +387,9 @@ header{position:relative;height:110px;}
 .outerwrapper.page_content,.outerwrapper.blog_content{
 	padding:120px 0px 120px 0px;
 }
+.page_support .outerwrapper.page_content{
+	padding:80px 0px 80px 0px;
+}
 .page_content h1,.blog_content h1{color:#4a4a4a;font-size:40px;font-weight:200;margin-left:-2px;margin-bottom:20px;}
 .page_content h2.subtitle{margin-top:-10px;margin-bottom:20px;}
 .page_content .content,.blog_content .content{
@@ -748,6 +751,7 @@ a.social{
 
 }
 /***** SOLUTION PAGE ******/
+
 .page_content.page_solution p{
 	text-align: left;
 	width:100%;
@@ -762,7 +766,7 @@ a.social{
 .innerwrapper.solutionpanel_1{
 	padding-top:185px;
 }
-.solutionpanel_1 img,.solutionpanel_3 img{
+.solutionpanel_1 img{
 	position:absolute;
 	right:0px;
 	top:0px;
@@ -811,6 +815,7 @@ a.social{
 
 .innerwrapper.solutionpanel_3{
 	padding-top:125px;
+	height:380px;
 }
 .solutionpanel_3 h2{
 	color:#4a4a4a;
@@ -823,7 +828,9 @@ a.social{
 	right:0px;
 	height:100%;
 	background:#e3e3e3;
-	width:400px;
+	padding:205px 0px 0px 100px;
+	height:305px;
+	width:37%;
 }
 .solutionpanel_3 .gray_box h3{
 		color:#8f8f8f;
