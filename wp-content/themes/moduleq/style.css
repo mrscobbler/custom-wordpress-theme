@@ -695,6 +695,7 @@ a.social{
 }
 .team-members .innerwrapper hr:first-of-type{
 	visibility: hidden;
+	margin:0px 0px 86px 0px;
 }
 .about-card{
 	float:left;

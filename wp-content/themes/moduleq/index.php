@@ -2,7 +2,7 @@
 
 <div class="outerwrapper blog_content">
 	<div class="innerwrapper cf">
-		<h1>Blog</h1>
+		<h1>Keep Closing</h1>
 		<hr class="main_hr"/>
 		<div class="content">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
