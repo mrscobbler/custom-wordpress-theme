@@ -216,7 +216,7 @@ header{position:relative;height:110px;}
 @media (max-width: 768px) {
 	.tag_container{background-position:25% top;}
 	/*TAG MOBILE*/
-	.tag {padding:340px 10px 0 10px;}
+	.tag {padding:200px 10px 0 10px;}
 	.tag h1 {color:#fff; font-size:38px; clear:both; margin-bottom:22px; font-weight:200; letter-spacing:1px}
 	.tag h1 br {display:none}
 	.tag h1 span {color:#56F538;}
@@ -740,11 +740,24 @@ a.social{
 }
 
 @media (max-width: 768px) {
-
+	.about-card{
+		width:auto;
+		min-height:inherit;
+		height:auto;
+	}
+	.about-card-info{
+		padding:0 20px 60px 20px;
+	}
+	.about-card img{
+		width:100%;
+	}
 	.about-card,.about-container .about-card:nth-child(2){
 		float:none;
 		margin:10px auto;
 
+	}
+	.team-members .innerwrapper hr:first-of-type{
+		display:none;
 	}
 
 }
