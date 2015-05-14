@@ -2,7 +2,9 @@
 <div class="page_content page_solution">
 <div class="outerwrapper solutionpanel_1">
 	<div class="innerwrapper solutionpanel_1">
+		<div class="img_container">
 		<img src="<?php bloginfo('template_url'); ?>/images/solution_stairs.png">
+		</div>
 		<div class="solution_content">
 		<h1>Keep Deals Humming</h1>
 		<p>Rev is a mobile application for sales professionals who<br/>

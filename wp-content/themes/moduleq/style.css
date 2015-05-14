@@ -600,10 +600,9 @@ a.social{
 	.support_people_container h2{
 		text-align: left;
 	}
-	.support
 }
 /* BUTTONS */
-.rollover-button,.ninja-forms-form input.rollover-button{
+.rollover-button, .ninja-forms-form input.rollover-button{
 	border: none;
     border-radius: 100px;
     background:#56f538;
@@ -822,6 +821,10 @@ a.social{
 .innerwrapper.solutionpanel_1{
 	padding-top:185px;
 }
+.solutionpanel_1 .img_container{
+	background:black;
+	height:auto;width:auto;
+}
 .solutionpanel_1 img{
 	position:absolute;
 	right:0px;
@@ -925,8 +928,14 @@ a.social{
 	
 }
 @media (max-width: 1151px) {
+	.innerwrapper.solutionpanel_1{
+		padding-top:35px;
+	}
 	.solutionpanel_1 .solution_content{
 		width:32%;
+	}
+	.solutionpanel_2 .solution_content{
+		width:55%;
 	}
 	
 }
