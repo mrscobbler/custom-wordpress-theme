@@ -561,6 +561,9 @@ a.social{
 		margin:0px auto 0px auto;
 		text-align: center !important;
 	}
+	.page_support .page_content h1{
+		text-align: left !important;
+	}
 }
 @media (max-width:500px){
 	img[class*="align"], img[class*="wp-image-"] {
