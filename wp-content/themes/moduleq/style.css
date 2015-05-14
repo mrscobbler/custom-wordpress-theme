@@ -483,6 +483,9 @@ a.social{
 .support_people_container{
 	background:#fbfbfb;padding-top:80px;
 }
+.support_people_container h2{
+	font-size: 35px; font-weight: 100; margin-bottom: 40px;
+}
 .support_people{
 	width:200px;
 	float:left;
@@ -524,17 +527,14 @@ a.social{
 }
 
 @media (max-width: 768px) {
-	
-	.support_people:first-of-type{
-		margin-left:15%;
-	}
 
-	.outerwrapper.page_content{
+	.outerwrapper.page_content,.page_support .outerwrapper.page_content{
 		padding:40px 0px;
 	}
 	.page_content .innerwrapper{
 	width:auto;
 	}
+
 	.page_content p{
 		text-align:left !important;
 		line-height:1.5em;
@@ -543,17 +543,24 @@ a.social{
 	.page_content p br{
 		display:none;
 	}
-	.support_people{
+	.support_people_container h2{
+		text-align: left;
+	}
+	.support_people,.support_people:first-of-type{
 		float:none !important;
+		margin:auto;
+		margin-left:auto;
+		margin-right:auto;
 	}
 	.support_people img{
 		margin-left:auto;
 		margin-right:auto;
 		margin-top:40px;
 	}
-	.support_people p:first-of-type{
-	margin:0px auto 0px auto;
-}
+	.page_content .support_people p{
+		margin:0px auto 0px auto;
+		text-align: center !important;
+	}
 }
 @media (max-width:500px){
 	img[class*="align"], img[class*="wp-image-"] {
@@ -740,6 +747,9 @@ a.social{
 }
 
 @media (max-width: 768px) {
+	.page_about h1{
+		text-align: left;
+	}
 	.about-card{
 		width:auto;
 		min-height:inherit;
