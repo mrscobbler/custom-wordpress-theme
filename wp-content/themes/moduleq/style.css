@@ -757,6 +757,7 @@ a.social{
 	}
 	.about-card-info{
 		padding:0 20px 60px 20px;
+		width:auto;
 	}
 	.about-card img{
 		width:100%;
