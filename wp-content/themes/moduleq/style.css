@@ -476,6 +476,27 @@ hr.main_hr{
 	color:#56f538;
 	font-weight:400;
 }
+/***** Blog Page *****/
+.blog_content .article_header h2 a{
+	color:#56f538;
+	font-size: 28px;
+	font-weight:500;
+}
+.entry-content h3{
+	margin:15px 0px;
+	font-size:24px;
+	line-height: 1.5em;
+}
+.entry-content ul{
+	margin-left:40px;
+}
+.entry-content li{
+	font-size:20px;
+font-weight:100;
+line-height:1.4em;
+margin-bottom:15px;
+}
+
 a.social{
 	color:#7c7c7c;
 	margin-right:25px;
@@ -1020,10 +1041,4 @@ a.social{
 .news-item hr{
 	margin:35px 0px 35px 0px;
 	
-}
-/***** Blog Page *****/
-.blog_content .article_header h2 a{
-	color:#56f538;
-	font-size: 26px;
-	font-weight:500;
 }
