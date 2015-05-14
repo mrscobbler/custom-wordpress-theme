@@ -543,8 +543,8 @@ a.social{
 	.page_content p br{
 		display:none;
 	}
-	.support_people_container h2{
-		text-align: left;
+	.support_people_container p{
+		text-align: center !important;
 	}
 	.support_people,.support_people:first-of-type{
 		float:none !important;
@@ -567,6 +567,10 @@ a.social{
 	height: auto !important;
 	width: 100% !important;
 	}
+	.support_people_container h2{
+		text-align: left;
+	}
+	.support
 }
 /* BUTTONS */
 .rollover-button,.ninja-forms-form input.rollover-button{
