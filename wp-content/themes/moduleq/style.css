@@ -937,6 +937,10 @@ a.social{
 	.solutionpanel_2 .solution_content{
 		width:55%;
 	}
+	.solutionpanel_2 li{
+		line-height:1.5em;
+		margin-bottom:25px;
+	}
 	
 }
 
@@ -955,13 +959,7 @@ a.social{
 	.solutionpanel_1 .solution_content{
 		width:100%;
 	}
-	.solutionpanel_2 li{
 	
-		line-height:1.5em;
-		margin-bottom:15px;
-		margin-left:10px;
-	
-	}
 	.solutionpanel_2 .solution_content{
 		float:none;
 		width:100%;
