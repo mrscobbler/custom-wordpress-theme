@@ -532,7 +532,7 @@ a.social{
 }
 
 @media (max-width: 992px) {
-	.page_content .sidebar{
+	.page_content .sidebar,.blog_content .sidebar{
 		float:none;
 		display:block;
 		width:100%;
@@ -541,7 +541,12 @@ a.social{
 		border-top:1px solid #d1d1d1;
 		padding-top:50px;
 	}
-	.page_content .content{
+	.blog_content .sidebar{
+		margin-top:0px;
+		padding-top:0px;
+		border-top:none;
+	}
+	.page_content .content,.blog_content .content{
 		border:none;
 		float:none;
 		display:block;
@@ -590,6 +595,10 @@ a.social{
 	}
 	.page_support .page_content h1{
 		text-align: left !important;
+	}
+	.blog_content header{
+	height:auto;
+	margin-bottom:50px;
 	}
 }
 @media (max-width:500px){
