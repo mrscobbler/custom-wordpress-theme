@@ -116,10 +116,13 @@ footer a.poweredby{color:#4a4a4a;text-decoration: underline}
 
 /*NAVBAR*/
 header{position:relative;height:110px;}
-.navbar {position:absolute;right:-5px;top:50px;}
+.navbar {position:absolute;right:-5px;top:50px;z-index: 1000;}
 #logo{position:absolute; top:28px;}
 #mobilebtn{display:none;}
 #menu-header-menu li {list-style-type:none;float:left;padding-left:45px;text-align:right;}
+#menu-header-menu li.mobile_only{
+		display:none;
+	}
 #menu-header-menu li.rev_for_sales{width:170px;}
 #menu-header-menu  a {cursor:pointer;color:#fff; font-size:18px; font-weight:300;}
 #menu-header-menu .current-menu-item a{color:#56f538;}
@@ -182,6 +185,9 @@ header{position:relative;height:110px;}
 		display:block;
 		font-size:30px;
 		font-weight:100;
+	}
+	#menu-header-menu li.mobile_only{
+		display:block;
 	}
 	#menu-header-menu ul.sub-menu li{
 		
