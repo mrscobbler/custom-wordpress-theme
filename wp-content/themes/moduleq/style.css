@@ -777,8 +777,8 @@ a.social{
 	bottom:20px
 }
 @media (max-width: 1151px) {
-	.about-card,.about-container .about-card:nth-child(2){
-		margin-bottom:80px;
+	.about-container .about-card:nth-child(3){
+		margin-top:60px;
 	}
 	
 }
