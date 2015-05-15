@@ -14,7 +14,7 @@
 		<div class="innerwrapper">
 			<?php $taxonomy_terms = get_terms( 'assigned-team' );
 			foreach($taxonomy_terms as $term):?>
-			<hr/>
+			<hr class="team_break"/>
 			<h2><?php echo $term->name?></h2>
 			<div class="about-container cf">
 			<?php

@@ -705,7 +705,7 @@ a.social{
 	background:#e9e9e9;
 	padding-bottom:85px;
 }
-.team-members .innerwrapper hr:first-of-type{
+.team-members .innerwrapper hr.team_break:first-of-type{
 	visibility: hidden;
 	margin:0px 0px 86px 0px;
 }
@@ -796,25 +796,34 @@ a.social{
 	.page_about h1{
 		text-align: left;
 	}
-	.about-card{
-		width:auto;
-		min-height:inherit;
-		height:auto;
-	}
 	.about-card-info{
 		padding:0 20px 60px 20px;
-		width:auto;
-	}
-	.about-card img{
-		width:100%;
+		
 	}
 	.about-card,.about-container .about-card:nth-child(2){
 		float:none;
 		margin:10px auto;
 
 	}
+	.about-card{
+		min-height:inherit;
+		height:auto;
+	}
 	.team-members .innerwrapper hr:first-of-type{
 		display:none;
+	}
+
+}
+@media (max-width:365px){
+	.about-card{
+		width:auto;
+	}
+	.about-card img{
+		width:100%;
+		height:auto;
+	}
+	.about-card-info{
+		width:auto;
 	}
 
 }
