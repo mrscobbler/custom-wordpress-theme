@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html><head>
-<title>ModuleQ</title>
+<title>Rev</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico" type="image/x-icon" />
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
