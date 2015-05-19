@@ -20,6 +20,6 @@
 <!--IMAGE LOADER-->
 <div style="display:none"> <img src="<?php bloginfo('template_url'); ?>/images/btn_trymoduleq_on.png" width="475" height="83"> <img src="<?php bloginfo('template_url'); ?>/images/btn_trymoduleq_panel2_on.png" width="287" height="128"> </div>
 <!-- END hideelements-->
-
+<?php wp_footer()?>
 </body>
 </html>
